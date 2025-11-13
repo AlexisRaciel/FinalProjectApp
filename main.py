@@ -2,7 +2,7 @@ from customtkinter import *
 from tkinter import * 
 from tkinter import filedialog
 import numpy as np
-import pandas 
+import tkinter.messagebox
 
 class App:
     
@@ -26,19 +26,24 @@ class App:
         self.txts_btn.place(x = self.ancho/12, y = self.alto/12)
 
         # Etiquetas
-        self.nombre_archivo_label = CTkLabel(master, text = "Nombre del archivo: ", anchor = 'w', width = self.ancho/3, height = self.alto/12)
+        self.nombre_archivo_label = CTkLabel(master, text = "Nombre del archivo: ", anchor = 'w', width = self.ancho/3, height = self.alto/14)
         self.nombre_archivo_label.place(x = self.ancho/12, y = self.alto/12 * 2)
-    
+        # Nombre de los desarroladores     
+        self.dev_label = CTkLabel(master, text = "Developers: Jazmín, Alexis & Emiliano", anchor = 'w', width = self.ancho/6, height = self.alto/25)  
+        self.dev_label.place(x = self.ancho / 8 * 6, y = self.alto / 35 * 28) 
+
     # Métodos
     def elegirPathTXTs(self):
         
         # Try and except para cachar los errores al cargar el achivo
         try:
+            
             cont = 0
             # Abrir la ruta del archivo
             self.filename = filedialog.askopenfilename(initialdir='C:/', title = "Abrir archivo para procesar sus textos", filetypes = (("txt files", "*.txt"), ))
             # Inicializar los renglones del archivo
             self.filas = []
+            
             if self.filename != "":
                 # Obtener solo el nombre del archivo sin todo el path
                 self.file_name_t = os.path.basename(self.filename)
@@ -47,21 +52,23 @@ class App:
                 # "Barrer" el archivo línea por línea
                 with open(self.filename, "r") as archivo:
                     for linea in archivo:
-                        # rstrip() elimina el salto de línea al final
-                        self.filas.append(linea.rstrip())
-                        # Imprimir en consola la fila "cont"
-                        print(self.filas[cont])  
-                        cont += 1
+                        # linea.isspace(): la línea contiene puros espacios en blanco
+                        if linea != "" and linea.isspace() == False:
+                            # rstrip() elimina el salto de línea al final
+                            self.filas.append(linea.rstrip())
+                            # Imprimir en consola la fila "cont"
+                            print(self.filas[cont])  
+                            cont += 1
             
-            print("Archivo Cargado")
+            tkinter.messagebox.showinfo(title = "Aviso", message="Archivo Cargado")
             print(str(self.filename))
 
         except FileNotFoundError:
-            print("El archivo no existe en la ruta especificada")
+            tkinter.messagebox.showinfo(title = "Error", message="El archivo no existe en la ruta especificada")
         except:
-            print("Un error ocurrió al momento de cargar el archivo")
+            tkinter.messagebox.showinfo(title = "Error", message="Un error ocurrió al momento de cargar el archivo")
 
-# Graphical User Interface (GUI)
-GUI = CTk()
+
+GUI = CTk( )
 AppTXTs = App(GUI)
 AppTXTs.master.mainloop()

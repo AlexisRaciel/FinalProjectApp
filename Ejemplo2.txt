@@ -1,0 +1,900 @@
+                                                  PROTOCOLO DE INVESTIGACIÓN
+
+
+
+
+Nombre del estudiante:              Durán Martínez Samuel
+
+No. de expediente:                  244100
+
+No. CVU (si cuenta con él):
+
+Correo electrónico:                 sduran26@alumnos.uaq.mx
+
+Teléfono:                           4426025117
+
+
+Nombre del programa:                Maestría en Ciencia de Datos
+
+                                    Mecanismos para el Aprendizaje Artificial en
+Línea de investigación del
+                                    el Análisis de Datos.
+programa educativo (LGAC):
+
+
+Director de tesis:                  Dr. Jorge Domingo Mendiola Santibáñez
+
+
+Co-director de tesis (si aplica):
+
+
+Número de veces que se ha sometido esta propuesta al H. Consejo
+Académico de la Facultad:
+
+    Primera vez ( )             Segunda vez ( )          Más de 2 veces ( x )
+
+Semestre actual del estudiante: Segundo Semestre
+
+Fecha de ingreso al programa:       Julio 2024
+
+
+
+
+                                                                                   1
+                                                       PROTOCOLO DE INVESTIGACIÓN
+
+
+I. DATOS GENERALES
+•   Título del proyecto: Filtrado de materia blanca en imágenes de resonancias
+    magnéticas de cerebros segmentados utilizando transformaciones morfológicas e
+    inteligencia artificial.
+•   Nombre del estudiante responsable: Samuel Durán Martínez
+•   Colaboradores (Director y/o Co-director): Dr. Jorge Domingo Mendiola Santibáñez
+•   Centro o lugar donde se realiza investigación: Facultad de Ingeniería, Universidad
+    Autónoma de Querétaro.
+•   Tipo de investigación básica, aplicada o tecnológica (diseño, construcción de
+    prototipo o prueba experimental): Aplicada
+•   Línea de investigación sobre la cual se desarrollará el trabajo (LGAC): Mecanismos
+    para el Aprendizaje Artificial en el Análisis de Datos.
+
+
+II. ANTECEDENTES Y/O FUNDAMENTACIÓN TEÓRICA
+    En la actualidad, el estudio de imágenes por resonancia magnética (RM) ha jugado
+    un papel importante en el campo de la medicina ya que ofrece una representación
+    detallada de la estructura interna del cuerpo para obtener un diagnóstico sobre el
+    funcionamiento de un órgano o tejido. Esta técnica médica es no invasiva ya que
+    las imágenes se obtienen mediante radiación de radiofrecuencia en presencia de
+    campos magnéticos controlados para generar imágenes transversales del cuerpo
+    (Ponce de Leon Sanchez, y otros, 2024).
+    Los cimientos para comprender el funcionamiento de la resonancia magnética
+    surgen en 1920 cuando Wolfgang Pauli propuso la existencia del espín nuclear y de
+    un momento magnético del protón para explicar la estructura hiperfina del espectro
+    atómico. Unos años después, Felix Bloch y Edwar M. Purcell publicaron
+    investigaciones relacionadas al desarrollo de un método cuantitativo para medir el
+    momento magnético del núcleo del átomo donde concluyeron que algunos núcleos
+    atómicos colocados en un campo magnético y estimulados con una onda de
+    radiofrecuencia son capaces de absorber energía por lo que estos núcleos liberan
+
+
+
+                                                                                    2
+                                                  PROTOCOLO DE INVESTIGACIÓN
+
+
+energía excedente (Purcell, Torrey, & Pound, 1946), transmitiendo así ondas de
+radio que pueden ser captadas mediante una antena (Bloch, 1946). Esta
+investigación hizo que Bloch y Purcell ganaran el Premio Nobel de Física en 1952 y
+fueran considerados padres de la RM ya que es el fenómeno físico tiene fundamento
+en propiedades mecanicocuánticas de los núcleos atómicos y la inducción de
+transiciones entre diferentes estados de energía (Costa Subias & Soria Jerez,
+2021).
+
+
+Las imágenes obtenidas por resonancia magnética se consiguen colocando a un
+paciente dentro de un imán grande, que induce un campo magnético externo
+relativamente fuerte. Esto hace que los núcleos de los átomos del cuerpo se alineen
+con el campo magnético y luego se aplica la señal de radiofrecuencia (ondas
+electromagnéticas). La energía liberada del cuerpo se detecta y se utiliza para crear
+la resonancia magnética en forma de señal a través de una computadora (Katti, Ara,
+& Shireen, 2011). Esta situación ocurre al someter partículas (electrones y protones)
+de núcleos atómicos de número impar a un potente campo magnético, de forma que
+éstos puedan absorber selectivamente energía en la frecuencia de ondas de radio
+(8 a 130 MHz) dentro del espectro electromagnético (Costa Subias & Soria Jerez,
+2021). La base de la obtención de imágenes radica en medir la energía liberada y
+el tiempo en que vuelven a su estado de relajación una vez que dejan de estar
+estimulados (Costa Subias & Soria Jerez, 2021).
+
+
+Dado que los distintos tejidos devuelven una señal específica, ésta se puede
+transformar en una imagen tomográfica si es tratada adecuadamente, obteniendo
+imágenes de gran precisión de las distintas partes del cuerpo (Costa Subias & Soria
+Jerez, 2021). Desde 1952 la evolución tecnológica en el ámbito de la RM no ha
+tenido pausas, y cada vez las máquinas son más potentes, los estudios más
+rápidos, la resolución más precisa y, además, existen multitud de aplicaciones
+(Costa Subias & Soria Jerez, 2021), en la Figura 1 se observa una imagen
+
+
+
+
+                                                                                   3
+                                                                  PROTOCOLO DE INVESTIGACIÓN
+
+
+   representativa de cómo es tomada una imagen por resonancia magnética usando
+   equipo médico especializado.
+
+
+       Figura 1
+
+       Máquina para obtener imágenes por resonancia magnética
+
+
+
+
+Nota: Imagen tomada de “Resonancia magnética dirigida a técnicos superiores en imagen para el diagnóstico” (p.
+                               26), por J. Costa Subias, 2021, ELSEVIER.
+
+
+
+
+   Las resonancias magnéticas se suelen realizar para diagnóstico, seguimiento y
+   detección de muchas enfermedades como el Alzheimer, esclerosis múltiple (EM),
+   aneurisma cerebral, tumor cerebral y melanoma del ojo (Kalavathi & Prasath, 2016).
+
+
+   Particularmente, la esclerosis múltiple es una enfermedad inflamatoria crónica del
+   sistema nervioso central, caracterizada patológicamente por desmielinización y
+   clínicamente por episodios de disfunción neurológica diseminados en el espacio y
+   el tiempo, que produce una amplia variedad de síntomas como alteración de la
+   sensibilidad del organismo (Fernández, Fernández, & Guerrero, 2015). Los
+   síntomas se determinan en función de la localización de las lesiones
+   desmielinizantes a lo largo del sistema nervioso central (Milo & Miller, 2014).
+
+
+
+                                                                                                            4
+                                                     PROTOCOLO DE INVESTIGACIÓN
+
+
+  Inicialmente, la patología de la EM se definió como un proceso inflamatorio asociado
+  a placas focales de desmielinización primaria en la sustancia blanca del cerebro y
+  la médula espinal. Un diagnóstico fiable y preciso de la EM es necesario para
+  introducir tratamientos tempranos para la enfermedad. Las terapias farmacológicas
+  modificadoras de la enfermedad pueden ayudar a controlar los síntomas y prevenir
+  la progresión (Marrodan, Gaitán, & Correale, 2020).
+
+
+2.1 Transformaciones morfológicas de imágenes
+
+
+  La morfología matemática (MM) es una técnica para el procesamiento y análisis de
+  imágenes que usa conceptos de álgebra (teoría de conjuntos) y geometría. Esta
+  técnica busca analizar y modificar las estructuras de una imagen, es decir, se
+  modifican los elementos de la imagen. Esta técnica se desarrolló con el fin de
+  estudiar propiedades mecánicas de los materiales en el área de la petrografía y
+  mineralogía (Serra, 2023) analizando la porosidad formalizando los trabajos a partir
+  de conjuntos aleatorios cerrados. El enfoque de la estructura en la morfología
+  matemática considera el espacio de trabajo como un retículo, es decir, como un
+  conjunto de puntos en el espacio en un espacio regular con cierta periodicidad, por
+  lo que se dio más formalización al caso binario y al trato de imágenes en escala de
+  grises.
+
+
+  Las transformaciones en MM se basan en el conjunto geométrico denominado
+  elemento estructural, que tiene una forma y tamaño predefinidos, así como un
+  origen. Este elemento estructural se desplaza sobre la imagen en análisis con el
+  propósito de identificar el conjunto de puntos (en relación con el origen del elemento
+  estructural) que participarán en cada operación aplicada a las componentes de la
+  imagen. La forma que puede adoptar geométricamente es variada y puede tener
+  casos bidimensionales y tridimensionales. Este elemento estructural tiene la
+  propiedad de ser isotrópico, es decir, que tiene las mismas propiedades en cualquier
+  dirección y no presenta variaciones en su comportamientos o características, dentro
+
+
+                                                                                      5
+                                                                       PROTOCOLO DE INVESTIGACIÓN
+
+
+   del campo de imágenes es importante mencionar que al estudiar los pixeles de una
+   imagen entonces el elemento estructural debe ser cuadrado e isotrópico, con el pixel
+   del central como origen relacionado a los otros ocho pixeles que están alrededor
+   conectados (Mendiola Santibañez, 2003).
+
+
+   La ubicación del origen del elemento estructural es importante para efectuar las
+   transformaciones de la imagen ya que es la referencia para obtener la imagen ya
+   procesada. En la Figura 2 se muestran ejemplos:
+
+
+   Figura 2
+
+   Elementos estructurales
+
+
+
+
+ Nota: (a) es la línea estructural con origen en el punto p, (b) cuadrado como elemento estructural con origen en
+     el punto p, (c) triangulo como elemento estructural, con origen en el punto p, (d) círculo como elemento
+estructural, con origen en el punto p, (e) cubo como elemento estructural, con origen en el punto p, (f) talla 1,2 y 3
+      del elemento estructural, (g) suma y resta de Minkowski entre los conjuntos X y B. Imagen tomada de
+“Operadores de contraste morfológicos y medida del contraste: una aplicación a la segmentación de imágenes de
+                   resonancia magnética del cerebro” (p. 111), por J. Mendiola Santibañez, 2003.
+
+
+
+
+                                                                                                                    6
+                                                    PROTOCOLO DE INVESTIGACIÓN
+
+
+  Al elemento estructural con origen 𝑝 observado en la Figura 2 se le denota como
+  𝐵𝑝 = 𝐵, es decir, una máscara o una matriz, entonces la talla del elemento
+  estructural se puede escribir como 𝜇𝐵 donde 𝜇 es un factor de escala que determina
+  el tamaño de la estructura geométrica de 𝐵, además, se puede definir el conjunto 𝑋
+  al conjunto al que se le va a aplicar una transformación morfológica, el cual es el
+  conjunto de elementos o pixeles al que se le aplica la transformación morfológica
+  (Mendiola Santibañez, 2003).
+
+
+  A partir de funciones estructurales y en imágenes binarias, algunas de las
+  operaciones básicas en transformaciones morfológicas son:
+   •   Erosión morfológica: Se trata de una transformación creciente y antiextensiva,
+       ocurre cuando el lugar de centros de los trasladados de 𝜇𝐵𝑥 se encuentra
+       totalmente al interior de 𝑋, es decir, se reduce el tamaño del objeto en una
+       imagen eliminando pixeles de los bordes.
+   •   Dilatación morfológica: Al igual que la erosión, es una transformación creciente
+       y extensiva, la dilatación morfológica de un conjunto 𝑋 por 𝜇𝐵 ocurre cuando
+       dicho conjunto 𝜇𝐵𝑥 no toca al conjunto 𝑋, es decir, se expande el tamaño del
+       objeto agregando pixeles en el borde.
+
+
+2.2 Filtrado morfológico en imágenes
+
+
+  Además de modificar la forma y el tamaño en imágenes, las trasformaciones
+  morfológicas permiten modificar otro tipo de propiedades físicas como el tamaño,
+  contraste, etc. Modificar el contraste permite observar detalles en la imagen para
+  extraer la información adecuada, sin embargo, el uso adecuado de un filtro es
+  necesario para llegar a ese resultado. En la Figura 3 se ejemplifican
+  transformaciones morfológicas básicas donde se observa como cambian los
+  elementos de la imagen.
+
+
+
+
+                                                                                     7
+                                                               PROTOCOLO DE INVESTIGACIÓN
+
+
+   A partir de las dos operaciones básicas en transformaciones morfológicas vistas
+   previamente (erosión y dilatación) podemos definir dos filtros básicos:
+
+
+    •      Apertura morfológica: La apertura de 𝑋 por 𝐵 será el área de barrida por 𝐵
+           cuando éste se encuentre completamente al interior de 𝑋, es decir, se elimina
+           ruido suavizando contornos aplicando una erosión seguida de una dilatación.
+    •      Cerradura morfológica: La cerradura de 𝑋 por 𝐵 será el complemento del área
+           barrida por 𝐵 cuando éste se encuentre en el exterior de 𝑋, es decir, cierra
+           espacio vacío dentro del objeto aplicando una dilatación y después una erosión.
+
+
+Figura 3
+
+Transformaciones morfológicas básicas
+
+
+
+
+                         Nota: Transformaciones obtenidas con OpenCV en Python.
+
+
+
+2.3 Segmentación y procesamiento de imágenes
+
+
+   La segmentación es la acción de separar una imagen en distintas regiones de
+   interés de acuerdo a sus características, por ejemplo: color, textura espacial, escala
+   de grises, geometría (Liu, Song, Liu, & Zhang, 2021) , para dar un mejor enfoque en
+
+
+                                                                                         8
+                                                  PROTOCOLO DE INVESTIGACIÓN
+
+
+el análisis de la imagen. La segmentación binaria es uno de los tipos de
+segmentación más comunes, consiste en clasificar los pixeles de una imagen en
+dos estados, el primero es si el pixel pertenece al primer plano de la imagen y el
+segundo estado si pertenece al fondo de la imagen.
+Dentro de la segmentación binaria se puede añadir el concepto de thresholding o
+umbralización, este método consiste en escoger un umbral con un valor de
+intensidad fijo para poder clasificar en dos estados los pixeles de una imagen; si la
+intensidad de color del pixel supera este valor de umbral entonces es verdadero, si
+está por debajo del umbral entonces es falso, es decir, un caso binario (Norouzi, y
+otros, 2014). La segmentación de imágenes se puede aplicar a imágenes médicas
+y, actualmente, el aprendizaje supervisado, semi-supervisado y no supervisado ha
+sido ampliamente utilizado en tareas de segmentación de imágenes médicas. La
+mayoría de los enfoques actuales en segmentación de imágenes médicas han
+recurrido al aprendizaje semi-supervisado (Ponce de Leon Sanchez, y otros, 2024).
+
+
+El desprendimiento del cráneo o en inglés skull stripping es un caso de estudio que,
+usando imágenes a partir de resonancias magnéticas, se hace una segmentación
+precisa del cerebro para poder separar el cráneo, cuero cabelludo, ojos, y otros
+constituyentes del área de la imagen. Esta segmentación se usa para estudiar la
+estimación del volumen del cerebro, registro de imagen, detección automática de
+tumores, estudios estructurales (Paredes Orta, y otros, 2022).
+
+
+Al igual que con cualquier otro sistema de adquisición de datos, en la generación de
+resonancias magnéticas, puede haber componentes que no se correlacionan con la
+señal deseada, conocidos como ruido o señales aleatorias. Esta señal de ruido
+generalmente es causada por fluctuaciones espontáneas como el movimiento
+térmico de electrones libres dentro de componentes eléctricos reales o
+equivalentes. La relación señal-ruido (SNR) es esencial para evaluar la calidad de
+la imagen y determinar el uso de técnicas de procesamiento de imágenes como la
+eliminación de ruido. Por otro lado, el diagnóstico de la EM mediante resonancia
+
+
+                                                                                   9
+                                                  PROTOCOLO DE INVESTIGACIÓN
+
+
+magnética requiere mucho tiempo debido a la gran cantidad de imágenes que deben
+etiquetarse (por ejemplo, imágenes de resonancia magnética ponderadas en T1,
+ponderadas en T2 y FLAIR), por lo que el enfoque diagnóstico manual es
+susceptible a errores. Esto puede afectar la calidad de la imagen y dificultar la
+identificación de áreas de lesión del SNC (Paredes Orta, y otros, 2022).
+
+
+Los algoritmos para estudiar el desprendimiento del cráneo pueden clasificarse en
+seis categorías: morfología matemática, análisis de intensidad de pixeles,
+superficies deformables, atlas cerebrales, enfoques híbridos y enfoque de
+aprendizaje profundo (Deep Learning) (Paredes Orta, y otros, 2022).
+
+
+A partir de estos algoritmos se han realizado distintos softwares para segmentar
+estas imágenes del cerebro con el objetivo de tener un mejor diagnóstico médico.
+Uno de los programas más usados es BET (Brain Extraction Tool) el cual procesa
+un gran volumen de imágenes en un corto periodo de tiempo. Este software
+desarrolla una malla de triángulos para poder adaptarse a la superficie del cerebro,
+sin embargo, la imagen cruda resultante del cráneo tiene una cantidad considerable
+de falsos negativos y positivos por lo que resulta en una aproximación poco realista.
+Debido a estos resultados se presentó el nuevo software automatizado BET2 con
+una mejora para extraer las superficies de malla en el cerebro, el cráneo, cuero
+cabelludo de una resonancia magnética a partir de dos tipos de resonancias
+magnéticas T1 y T2 (Paredes Orta, y otros, 2022).
+
+
+Otros algoritmos populares para separar el cráneo son BSE (Brain Surface
+Extractor), SPM2 (Statistical Parametric Mapping v2), McStrip (Minneapolis
+Consensus Strip), ROBEX (robust brain extraction), and TMBE (Threshold
+Morphologic Brain Extraction) (Paredes Orta, y otros, 2022).
+
+
+Por lo tanto, es necesario implementar nuevos métodos para procesar
+automáticamente las exploraciones de resonancia magnética para eliminar los
+
+
+                                                                                  10
+                                                  PROTOCOLO DE INVESTIGACIÓN
+
+
+componentes no deseados y detectar correctamente las lesiones de EM para
+determinar el progreso de la enfermedad.
+
+
+La mayoría de las aplicaciones de procesamiento de imágenes requieren análisis
+exhaustivos de los objetos dentro de una imagen. La segmentación se refiere a
+dividir una imagen en regiones de interés según sus características, como sus
+características de escala de grises, colores, textura espacial y formas geométricas.
+La forma más común de segmentación es binaria, donde cada píxel se clasifica
+como perteneciente al primer plano o al fondo. Uno de los métodos más útiles para
+segmentar imágenes es el umbral, que incluye la elección de un valor de intensidad
+y luego clasificar los píxeles por debajo de este valor como falsos y los píxeles por
+encima de él como verdaderos (Ponce de Leon Sanchez, y otros, 2024).
+
+
+2.4 Filtros morfológicos por contraste
+
+
+La detección de contornos en una imagen consiste en poder detectar cambios en la
+imagen. Matemáticamente un gradiente representa el cambio en una función, y una
+imagen puede ser representada como un arreglo de muestras de alguna función
+continua dada en función de los niveles de intensidad de la imagen. Los cambios en
+una imagen en escala de grises pueden ser detectados usando una aproximación
+discreta del gradiente y, para el cálculo del gradiente se emplea la magnitud (un
+operador isotrópico) definido con la magnitud o distancias 𝐺[𝑓(𝑥, 𝑦)] ≈ |𝐺𝑥 | + |𝐺𝑦 |
+(Mendiola Santibañez, 2003).
+
+
+Los operadores gradientes morfológicos son detectores de contraste. El
+mejoramiento de contraste morfológico está basado en la noción de mapeos de
+contraste ya que se debe comparar todo punto de la imagen original con dos
+patrones y se elige el valor más cercano en los patrones respecto de la imagen
+original. Cuando la erosión o dilatación son usadas como primitivas (patrones) para
+
+
+
+                                                                                  11
+                                                 PROTOCOLO DE INVESTIGACIÓN
+
+
+construir mapeos de contraste aparece el riesgo de degradar la imagen cuando se
+iteran estos operadores de contraste (Mendiola Santibañez, 2003).
+
+
+Los filtros morfológicos por pendiente (FMP) son transformaciones no crecientes
+que se construyen con los operadores básicos de erosión y dilatación en
+combinación a los operadores gradientes morfológicos. Se usa el criterio de
+pendiente para modificar el contraste en imágenes, así, las zonas de la imagen con
+pendientes débiles son eliminados y zonas con pendientes fuertes son mantenidas
+como regiones de alto contraste. La detección de contraste en las diferentes
+regiones de la imagen, se lleva a cabo al aplicar los conceptos de gradientes
+morfológicos que, al ser iterados, no comparan una función 𝑓 con diferentes
+patrones de la imagen original, sino que retienen zonas de alto contraste y eliminan
+aquellas donde el gradiente es débil (Mendiola Santibañez, 2003).
+
+
+El principal problema del análisis de imágenes es la detección de bordes. Los
+contornos caracterizan las fronteras de los objetos y son importantes en la
+segmentación, estos contornos se identifican por el cambio brusco en la escala de
+grises de la imagen, de ahí el uso del operador gradiente. Al existir cambios en la
+luz la relación entre los contornos de la imagen, la luminancia y el contraste se
+encuentran estrechamente relacionados. El criterio del gradiente tiene una
+desventaja y es que consiste en que el criterio no considera a los niveles de
+intensidad de la imagen original para modificar el contraste en las imágenes
+procesadas (Mendiola Santibañez, 2003).
+
+
+Se propone entonces modificar el criterio de gradiente realizando una ponderación
+por la función, entonces, se mejora el contraste en las imágenes procedas por los
+FMP. Las funciones ponderadoras con corrimiento ponderan el criterio del gradiente
+modificando la intensidad de contornos detectados a medida que el parámetro de
+corrimiento cambia. Estas transformaciones se realizan mediante el uso de
+transformaciones sobre partición originando transformaciones conexas, es decir, los
+
+
+                                                                                 12
+                                                    PROTOCOLO DE INVESTIGACIÓN
+
+
+  filtros morfológicos por pendiente ponderados procesaran las zonas planas de la
+  imagen sin romper los contornos (Mendiola Santibañez & Terol Villalobos, 2002).
+
+
+III. JUSTIFICACIÓN
+
+
+  Para el estudio del sistema nervioso central se necesitan imágenes por resonancia
+  magnética que se obtienen de una base de datos pública de pacientes con
+  esclerosis múltiple (Macin, y otros, 2022). Esta investigación se enfoca
+  particularmente en el estudio de la materia blanca del sistema nervioso central
+  debido a su relación con el daño neuronal y problemas de memoria (Paredes Orta,
+  y otros, 2022). Las técnicas morfológicas para el estudio de las resonancias
+  magnéticas deben ser seleccionadas en función de las características de las
+  imágenes y, usando inteligencia artificial, se planea realizar dos estudios de la
+  materia blanca: el primero es realizando transformaciones morfológicas en
+  imágenes y el segundo con el desarrollo de un algoritmo que use el aprendizaje de
+  redes neuronales para el análisis de imágenes. Se busca de comparar la semejanza
+  de las imágenes a partir del análisis previo de materia blanca de expertos en
+  medicina mediante índices y efectividad de los métodos.
+
+
+  Esta investigación es la continuación de un estudio de imágenes por resonancia
+  magnética del cerebro que ya se segmentaron mediante trasformaciones
+  morfológicas viscosas (Paredes Orta, y otros, 2022) donde el cerebro ya está
+  segmentado de los demás componentes de la imagen, sin embargo, falta aplicar
+  transformaciones de contraste a la imagen del cerebro ya separado para poder
+  cuantificar y analizar la materia blanca y así poder estudiar y analizar las imágenes
+  para conocer el desarrollo y detección de enfermedades que se desarrollan en el
+  sistema nervioso central y como está relacionado con la cantidad de materia blanca
+  en el organismo. El filtro morfológico por pendiente ponderada mejora el contraste
+  y la detección de los contornos en imágenes (Mendiola Santibañez & Terol
+
+
+
+
+                                                                                    13
+                                                   PROTOCOLO DE INVESTIGACIÓN
+
+
+ Villalobos, 2002) por lo que esta investigación hará uso de esta transformación
+ morfológica.
+
+
+IV. DESCRIPCIÓN DEL PROBLEMA
+
+
+ El análisis de imágenes de resonancia magnética en pacientes con esclerosis
+ múltiple enfrenta varias dificultades en términos de precisión y confiabilidad,
+ especialmente en la cuantificación de la materia blanca del cerebro. Aunque la
+ segmentación cerebral ya se ha realizado previamente utilizando técnicas de
+ transformación morfológica viscosa y otras transformaciones (Paredes Orta, y otros,
+ 2022), el desafío persiste en cuanto a cómo cuantificar correctamente la materia
+ blanca en estas imágenes. Este problema es crítico, ya que la materia blanca es
+ una estructura clave del sistema nervioso central, y su alteración es un indicador
+ importante de diversas enfermedades neurológicas, incluida la esclerosis múltiple.
+ En este contexto, el filtro morfológico por pendiente ponderado se presenta como
+ una opción prometedora debido a sus propiedades para ajustar el contraste y
+ resaltar áreas específicas dentro de las imágenes cerebrales, como la materia
+ blanca (Mendiola Santibañez, 2003). Sin embargo, la dificultad radica en
+ seleccionar y ajustar adecuadamente los parámetros del filtro para que el
+ procesamiento de la imagen sea el óptimo y permita una cuantificación precisa. Si
+ los parámetros no se ajustan de manera adecuada, se corre el riesgo de obtener
+ resultados inexactos, lo cual podría afectar la interpretación de la imagen y, por
+ ende, el diagnóstico médico y la toma de decisiones terapéuticas. El problema
+ fundamental, entonces, es cómo emplear este filtro morfológico de forma efectiva,
+ sin que se pierda información relevante, garantizando que los detalles de la materia
+ blanca sean correctamente segmentados y cuantificados (Mendiola Santibañez,
+ 2003).
+
+
+ Este estudio tiene una relevancia significativa tanto desde el punto de vista clínico
+ como científico. En primer lugar, una correcta cuantificación de la materia blanca es
+
+
+                                                                                   14
+                                                      PROTOCOLO DE INVESTIGACIÓN
+
+
+  fundamental para el diagnóstico y el seguimiento de la esclerosis múltiple, una
+  enfermedad neurodegenerativa crónica que afecta a millones de personas en todo
+  el mundo. La esclerosis múltiple causa la destrucción de la mielina, una sustancia
+  que recubre las fibras nerviosas, lo que afecta el funcionamiento del sistema
+  nervioso central y puede llevar a una discapacidad progresiva. Poder cuantificar con
+  precisión la cantidad de materia blanca afectada por la enfermedad proporciona una
+  base sólida para el monitoreo de la progresión de la enfermedad, la evaluación de
+  la efectividad de los tratamientos y la predicción de la evolución clínica.
+  Además, el uso de filtros morfológicos avanzados como el filtro morfológico por
+  pendiente ponderado ofrece la posibilidad de mejorar los resultados obtenidos en el
+  análisis de imágenes médicas. Al permitir una mejor resolución de detalles en áreas
+  específicas, se facilita la identificación de lesiones pequeñas y sutiles que podrían
+  ser pasadas por alto mediante técnicas de análisis convencionales. Esta capacidad
+  de ajustar el contraste dentro de la imagen mejora significativamente la visibilidad
+  de las áreas afectadas por la enfermedad, lo cual es crucial para un diagnóstico
+  temprano y preciso. También, los resultados de este estudio pueden ser aplicables
+  a otras patologías del sistema nervioso central, como Alzheimer, Parkinson, o
+  accidentes cerebrovasculares, donde el análisis de la materia blanca también juega
+  un papel esencial (Ponce de Leon Sanchez, y otros, 2024).
+
+
+V. PLANTEAMIENTO TEÓRICO (Hipótesis y/o supuestos, pregunta, etc.)
+
+
+  Preguntas de investigación
+  1. ¿Cuál es el uso adecuado de las trasformaciones morfológicas por contraste en
+      imágenes de resonancia magnética para realzar y segmentar la materia blanca
+      en el sistema nervioso central?
+  2. ¿Cuál es la forma más eficiente de implementar un algoritmo de inteligencia
+      artificial en el estudio de imágenes por resonancia magnética a partir de
+      trasformaciones morfológicas?
+
+
+
+
+                                                                                    15
+                                                    PROTOCOLO DE INVESTIGACIÓN
+
+
+  Hipótesis, supuestos y/o proposiciones de investigación
+
+
+  A partir de imágenes segmentadas del cerebro con la transformación morfológica
+  viscosa, el uso de la transformación morfológica por pendiente ponderada para el
+  cambio de contraste mejora la detección de materia blanca del cerebro previamente
+  segmentado, y, el algoritmo de inteligencia artificial que usa aprendizaje de redes
+  neuronales hace más eficiente la detección y conteo de la materia blanca del
+  cerebro.
+
+
+VI. OBJETIVOS
+  Objetivo general:
+  Aplicar transformaciones morfológicas de contraste e inteligencia artificial a
+  imágenes de resonancias magnéticas del sistema nervioso central provenientes de
+  pacientes con esclerosis múltiple que han sido previamente segmentadas para
+  separar el cerebro, con el fin de cuantificar la materia blanca usando la
+  transformación morfológica por pendiente ponderada para obtener una relación con
+  los padecimientos del cerebro.
+
+
+  Objetivos específicos:
+  1. Aplicar la trasformación morfológica por pendiente ponderada para modificar el
+      contraste y otras propiedades en la segmentación de imágenes para la
+      separación de materia blanca en cerebros obtenidos previamente con imágenes
+      por resonancia magnética aplicando la transformación morfológica viscosa.
+  2. Desarrollar un algoritmo de inteligencia artificial en el análisis de imágenes por
+      resonancia magnética a partir de la transformación morfológica viscosa para
+      comparar con la transformación morfológica por pendiente ponderada y analizar
+      la eficiencia de cada método.
+  3. Comparar con métodos actuales basados en inteligencia artificial la
+      segmentación resultante aplicando el filtro morfológico por pendiente
+      ponderado para obtener un índice que compare cada método y encontrar las
+
+
+                                                                                    16
+                                                                   PROTOCOLO DE INVESTIGACIÓN
+
+
+           ventajas y desventajas de aplicar transformaciones morfológicas e inteligencia
+           artificial.
+
+
+VII. METODOLOGÍA
+   La investigación presente para cuantificar la materia blanca del cerebro es una
+   continuación de la investigación realizada por Carlos Paredes, Jorge Mendiola y
+   otros, donde se segmentan imágenes por resonancia magnética obtenidas del
+   Repositorio de Segmentación Cerebral de Internet (IBSR), desarrollado por el
+   Centro de Análisis Morfométrico (CMA) del Hospital General de Massachusetts
+   (Cocosco, 1997). En ese estudio, se utilizó el filtro morfológico viscoso para poder
+   separar el cerebro de otros componentes de la resonancia como cráneo, ojos,
+   cabello, entre otros (Paredes Orta, y otros, 2022).
+   A partir de las imágenes con el cerebro ya segmentado como se observa en la
+   Figura 4, se aplicará la trasformación morfológica por pendiente ponderada para
+   modificar el contraste.
+
+
+Figura 4
+
+Filtro morfológico viscoso aplicado a imágenes por resonancia magnética del cerebro
+
+
+
+
+  Nota: Imagen tomada de “Hyperconnected openings codified in a max tree structure: an application for skull-
+                 striping in brain MR1 T1” (p.7), por C. Paredes Orta, 2022, Sensors, 22(4).
+
+
+
+
+                                                                                                            17
+                                                 PROTOCOLO DE INVESTIGACIÓN
+
+
+Al modificar el contraste aplicando la transformación morfológica por pendiente
+ponderada se busca analizar la cantidad la materia blanca para poder buscar una
+relación con enfermedades del sistema nervioso central como la esclerosis múltiple.
+Para el uso adecuado de la transformación morfológica es necesario considerar los
+siguientes parámetros:
+
+
+1. Gradientes morfológicos: Son las operaciones utilizadas en procesamiento de
+   imágenes, consiste en aplicar las operaciones de dilatación y erosión para
+   resaltar bordes, transiciones de intensidad y estructuras encontradas en las
+   resonancias magnéticas. Esto ayuda a detectar fronteras para separar regiones
+   y analizar formas que revelan información sobre la estructura del cerebro.
+2. Mapeos de contraste: Consiste en modificar el contraste de la imagen y es el
+   funcionamiento principal de la transformación morfológica por pendiente
+   ponderada, permite ver detalles en la imagen modificando las áreas claras y
+   oscuras para destacar zonas de interés ajustando la intensidad en una imagen.
+3. Conectividad: Define conexiones entre los diferentes componentes de la imagen,
+   ayuda a clasificar elementos y regiones de la imagen para detectar bordes a
+   partir de los pixeles conectados.
+4. Parámetros de corrimiento para la ponderación del gradiente (propuesta de
+   funciones matemáticas): Es principalmente el uso de funciones matemáticas
+   para modificar los pixeles en una imagen con las transformaciones matemáticas,
+   esto para un mejor análisis espacial en la imagen. Es la forma en que se ajusta
+   el filtro o la operación para ponderar de manera adecuada ciertas áreas de la
+   imagen durante el proceso de dilatación o erosión para resaltar detalles
+   específicos.
+
+
+Una vez aplicando el filtro adecuadamente y con la extracción de la materia blanca
+del cerebro se comparan resultados con algún método basado en inteligencia
+artificial, por ejemplo, segmentaciones de materia blanca de bases de datos
+
+
+
+
+                                                                                18
+                                                   PROTOCOLO DE INVESTIGACIÓN
+
+
+estándar para así determinar la confiabilidad de ambas opciones a partir de los
+datos e índices.
+
+
+Esta investigación es de tipo aplicada ya que es la continuación de una investigación
+que se relaciona en la aplicación de filtros morfológicos viscosos (Paredes Orta, y
+otros, 2022), solo que se aplicara un nuevo filtro morfológico por pendiente
+ponderada que ayuda a cambiar el contraste para observar la materia blanca de
+cerebros ya segmentados que, para esta investigación, funcionan como una
+variable dependiente ya que esa segmentación es la base para aplicar la nueva
+transformación, por lo tanto, la variable independiente es el objeto a estudiar ya que
+se encarga del ajuste que se hace con el filtro por pendiente ponderada para resaltar
+la materia blanca en el cerebro.
+
+
+
+
+                                                                                   19
+                                                            PROTOCOLO DE INVESTIGACIÓN
+
+
+  VIII. CRONOGRAMA DE ACTIVIDADES DEL PROYECTO
+
+
+  Con el fin de realizar un proceso sistemático, las etapas de la investigación se
+  representan en la Tabla 1:
+
+
+  Tabla 1
+
+   Cronograma de actividades del proyecto
+
+
+
+Semestre                           1 (2024-2)     2 (2025-1)      3 (2025-2)    4 (2026-1)
+Mes                                 10    12    2      4     6   8    10 12    2     4    6
+Definición y alcance de la
+tesis
+Protocolo de tesis
+Fundamentación teórica
+Definición de objetivos e
+hipótesis
+Fase 1. Análisis de
+transformaciones
+morfológicas
+Fase 2. Análisis de
+imágenes de
+resonancias magnéticas y
+análisis de cerebros
+segmentados por filtro
+morfológico viscoso
+Fase 3. Implementación de
+filtrado por pendiente
+ponderado en cerebros ya
+segmentados
+Fase 4. Evaluación con
+otros algoritmos de
+inteligencia artificial
+Fase 5. Análisis de
+resultados y conclusiones
+Fase 6. Presentar
+entregables (tesis/articulo)
+
+
+
+
+                                                                                       20
+                                                    PROTOCOLO DE INVESTIGACIÓN
+
+
+IX. RESULTADOS ESPERADOS, POSIBLES APLICACIONES Y USO DEL
+PROYECTO
+
+
+ Se busca aplicar un filtro morfológico por pendiente ponderada para mejorar el
+ contraste de cerebros que ya están segmentados para extraer la materia blanca del
+ cerebro. Los mapeos de contraste ponderados MSF toman decisiones sobre
+ oscurecer o aclarar la imagen con el fin de realizar un filtrado adecuado de la materia
+ blanca. En este proceso, el filtrado por contraste basado en mapeos de contraste
+ ponderados resalta los niveles de intensidad, facilitando la segmentación de
+ regiones de interés en la imagen.
+
+
+ Una vez obtenidas las nuevas segmentaciones, se busca comparar y desarrollar
+ algoritmos que utilicen inteligencia artificial para analizar imágenes por resonancia
+ magnética de pacientes con esclerosis múltiple. Estos algoritmos tienen como
+ objetivo realizar una segmentación precisa de cada imagen, permitiendo detectar la
+ materia blanca en ella.
+
+
+ Con ambos análisis se comparan las dos opciones para verificar la confiabilidad y
+ el desempeño de cada método. Cabe resaltar que se busca cuantificar la materia
+ blanca y generar diversas hipótesis que contribuyan a un mejor estudio médico, con
+ el fin de ampliar el conocimiento sobre las enfermedades y trastornos del sistema
+ nervioso central.
+
+
+ El uso de filtros morfológicos permite realizar una segmentación precisa de la
+ materia blanca del cerebro, destacando áreas específicas afectadas por la
+ enfermedad, lo que facilita la identificación de lesiones y deterioro en las primeras
+ etapas. En términos de aplicaciones clínicas, los filtros morfológicos pueden ser
+ utilizados para monitorear la progresión de la esclerosis múltiple, evaluando
+ cambios sutiles en la materia blanca a lo largo del tiempo. Combinados con
+ algoritmos de inteligencia artificial, estos filtros también pueden automatizar el
+
+
+                                                                                     21
+                                                   PROTOCOLO DE INVESTIGACIÓN
+
+
+análisis de imágenes, reduciendo el tiempo de diagnóstico y minimizando errores
+humanos, lo que agiliza la toma de decisiones médicas. Además, en el ámbito de la
+investigación, los filtros morfológicos pueden contribuir a generar nuevas hipótesis
+sobre la relación entre el deterioro de la materia blanca y los síntomas clínicos de la
+enfermedad, ayudando a una mejor comprensión de la fisiopatología de la
+esclerosis múltiple. Estas herramientas también pueden extenderse a otros
+trastornos neurológicos, permitiendo la evaluación de enfermedades como el
+Alzheimer o el Parkinson. En resumen, los filtros morfológicos no solo mejoran la
+precisión diagnóstica, sino que también permiten un avance significativo en la
+investigación médica y la educación médica, proporcionando visualizaciones
+detalladas que facilitan la comprensión de los cambios en el cerebro relacionados
+con diversas enfermedades neurológicas.
+
+
+Los resultados esperados de la investigación es el desarrollo de la tesis de
+maestría, publicación de un artículo y participación en congresos.
+
+
+
+
+                                                                                    22
+                                                      PROTOCOLO DE INVESTIGACIÓN
+
+
+X. REFERENCIAS BIBLIOGRÁFICAS
+
+
+
+Bloch, F. (1946). Nuclear induction. Physical Review, 70(7-8), 460.
+        https://doi.org/10.1103/PhysRev.70.460
+Cocosco, C. A. (1997). Brainweb: Online interface to a 3D MRI simulated brain
+        database. Obtenido de BrainWeb: Simulated Brain Database:
+        https://brainweb.bic.mni.mcgill.ca/brainweb/
+Costa Subias, J., & Soria Jerez, J. A. (2021). Resonancia magnética dirigida a
+        técnicos superiores en imagen para el diagnóstico. ELSEVIER.
+Fernández, O., Fernández, V., & Guerrero, M. (2015). Esclerosis múltiple. Medicine
+        Programa de Formación Médica, 11, 4610-4621.
+        https://doi.org/10.1016/j.med.2015.04.002
+Kalavathi, P., & Prasath, V. S. (2016). Methods on skull stripping of MRI head scan
+        images—a review. Journal of digital imaging, 29, 365-379.
+        https://doi.org/10.1007/s10278-015-9847-8
+Katti, G., Ara, S. A., & Shireen, A. (2011). Magnetic resonance imaging (MRI) - A
+        Review. International journal of dental clinics, 3(1), 65-70.
+Liu, X., Song, L., Liu, S., & Zhang, Y. (2021). A review of deep-learning-based
+        medical image segmentation methods. Sustainability, 13(3), 1224.
+Macin, G., Tasci, B., Tasci, I., Faust, O., Barua, P. D., Dogan, S., . . . Acharya, U. R.
+        (2022). An accurate multiple sclerosis detection model based on exemplar
+        multiple parameters local phase quantization: ExMPLPQ. Applied Sciences,
+        12(10), 4920. https://doi.org/10.3390/app12104920
+Marrodan, M., Gaitán, M. I., & Correale, J. (2020). Spinal Cord Involvement in MS
+        and Other Demyelinating Diseases. Biomedicines, 8(5), 130.
+        https://doi.org/10.3390/biomedicines8050130
+Matheron, G. (1967). Kriging or polynomial interpolation procedures. CIMM
+        Transactions, 70(1), 240-244.
+Mendiola Santibañez, J. D. (2003). Operadores de contraste morfológicos y medida
+        del contraste: una aplicación a la segmentación de imágenes de resonancia
+        magnética del cerebro. (Tesis doctoral, Universidad Autónoma de Querétaro).
+Mendiola Santibañez, J. D., & Terol Villalobos, I. R. (2002). Morphological contrast
+        enhancement using connected transformations. Image Processing: Algorithms
+        and Systems, 4667, 365-376.
+Milo, R., & Miller, A. (2014). Revised diagnostic criteria of multiple sclerosis.
+        Autoimmunity Reviews, 13(4), 518-524.
+        https://doi.org/10.1016/j.autrev.2014.01.012
+Norouzi, A., Rahim, M. S., Altameem, A., Saba, T., Rad, A. E., Rehman, A., & Uddin,
+        M. (2014). Medical image segmentation methods, algorithms, and applications.
+        IETE Technical Review, 31(3), 199-223.
+Paredes Orta, C., Mendiola Santibañez, J. D., Ibrahimi, D., Rodríguez Reséndiz, J.,
+        Díaz Florez, G., & Olvera Olvera, C. A. (2022). Hyperconnected openings
+
+
+                                                                                      23
+                                                      PROTOCOLO DE INVESTIGACIÓN
+
+
+       codified in a max tree structure: an application for skull-stripping in brain MRI
+       T1. Sensors, 22(4), 1378. https://doi.org/10.3390/s22041378
+Ponce de Leon Sanchez, E. R., Mendiola Santibañez, J. D., Dominguez Ramirez, O.
+       A., Herrera Navarro, A. M., Vazquez Cervantes, A., Jimenez Hernandez, H., &
+       Cordova Esparza, D. M. (2024). Training Artificial Neural Networks to Detect
+       Multiple Sclerosis Lesions Using Granulometric Data from Preprocessed
+       Magnetic Resonance Images with Morphological Transformations.
+       Technologies, 12(9), 145. https://doi.org/10.3390/technologies12090145
+Purcell, E. M., Torrey, H. C., & Pound, R. V. (1946). Resonance absorption by
+       nuclear magnetic moments in a solid. Physical Review, 69(1-2), 37.
+       doi:https://doi.org/10.1103/PhysRev.69.37
+Serra, J. (2023). Mathematical morphology. Encyclopedia of Mathematical
+       Geosciences, 820-835. https://doi.org/10.1007/978-3-030-85040-1_22
+
+
+
+
+                                                                         Nivel de revisión: 02
+                                                                               Revisión 2024
+
+
+
+
+                                                                                          24
+

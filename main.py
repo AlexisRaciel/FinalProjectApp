@@ -50,7 +50,7 @@ class App:
                 # Setear el texto de la etiqueta para que incluya el nombre del archivo
                 self.nombre_archivo_label.configure(text = "Nombre del archivo: " + str(self.file_name_t), anchor = "w")
                 # "Barrer" el archivo línea por línea
-                with open(self.filename, "r") as archivo:
+                with open(self.filename, "r", encoding='utf-8') as archivo:
                     for linea in archivo:
                         # linea.isspace(): la línea contiene puros espacios en blanco
                         if linea != "" and linea.isspace() == False:

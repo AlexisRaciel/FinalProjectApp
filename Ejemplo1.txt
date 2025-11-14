@@ -1,226 +1,818 @@
+PROTOCOLO DE INVESTIGACI√ìN
 
+Nombre del estudiante:
 
+GARCIA RODRIGUEZ EUGENIO
+335508
 
-Nombre del estudiante:GARCIA RODRIGUEZ EUGENIONo. de expediente:335508No. CVU (si cuenta con Èl):623771Correo electrÛnico:eugardz@gmail.comTelÈfono:6565976555
-Nombre del programa:
-Doctorado en TecnologÌa Educativa
+No. de expediente:
+No. CVU (si cuenta con √©l):
 
-LÌnea de investigaciÛn del programa educativo (LGAC):Las TIC en modelos educativos escolares y laborales.
-El estudio de la integraciÛn de las TIC como herramientas para la implementaciÛn de modelos educativos en contextos escolares
-y de capacitaciÛn/actualizaciÛn laboral.
-Director de tesis:
-Dra. Violena Hubenova Nencheva
-Co-director de tesis (si aplica):N˙mero de veces que se ha sometido esta propuesta al H. Consejo AcadÈmico de la Facultad:Primera vez	(	)Segunda vez  ( X )M·s de 2 veces	(	)Semestre actual del estudiante:2Fecha de ingreso al programa:Agosto 2024
+623771
+
+Correo electr√≥nico:
+
+eugardz@gmail.com
+
+Tel√©fono:
+
+6565976555
+
+Nombre del programa:
+
+Doctorado en Tecnolog√≠a Educativa
+
+L√≠nea de investigaci√≥n del
+programa educativo (LGAC):
+
+Las TIC en modelos educativos escolares y
+laborales.
+El estudio de la integraci√≥n de las TIC como
+herramientas para la implementaci√≥n de
+modelos educativos en contextos escolares
+y de capacitaci√≥n/actualizaci√≥n laboral.
+
+Director de tesis:
+
+Dra. Violena Hubenova Nencheva
+
+Co-director de tesis (si aplica):
+N√∫mero de veces que se ha sometido esta propuesta al H. Consejo
+Acad√©mico de la Facultad:
+Primera vez ( )
+
+Segunda vez ( X )
+
+M√°s de 2 veces ( )
+
+Semestre actual del estudiante: 2
+Fecha de ingreso al programa:
+
+Agosto 2024
+
+1
+
+PROTOCOLO DE INVESTIGACI√ìN
+
 I. DATOS GENERALES
-* TÌtulo del proyecto: Sistema de alfabetizaciÛn digital para el diseÒo did·ctico de cursos de formaciÛn en lÌnea en Organizaciones de la Sociedad Civil
-* Nombre del estudiante responsable: Eugenio GarcÌa RodrÌguez
-* Colaboradores (Director y/o Co-director): Dra. Violena Hubenova Nencheva
-* Centro o lugar donde se realiza investigaciÛn: Paz y Convivencia Ciudadana A.C.
-* Tipo de investigaciÛn b·sica, aplicada o tecnolÛgica (diseÒo, construcciÛn de prototipo o prueba experimental): Aplicada
-* LÌnea de investigaciÛn sobre la cual se desarrollar· el trabajo (LGAC): Las TIC en modelos educativos escolares y laborales.
+‚Ä¢
 
-II. ANTECEDENTES Y/O FUNDAMENTACI”N TE”RICA
-En esta secciÛn se presentan los fundamentos teÛricos y conceptos m·s relevantes que sustentan el presente estudio. Se analizar· la necesidad de crear un sistema de alfabetizaciÛn digital para el diseÒo de cursos de formaciÛn en lÌnea en OSC que promueva la generaciÛn de aprendizajes significativos para responder a las necesidades emergentes que atienden las organizaciones.
-1. Organizaciones de la Sociedad Civil y capacitaciÛn
-Las Organizaciones de la Sociedad Civil (OSC), tambiÈn conocidas como organizaciones del tercer sector, representan un pilar fundamental para la sociedad debido a que tienen como objetivo buscar mejorar las condiciones sociales y estructurales de la poblaciÛn en general. En este sentido, Hurtado Saa y Villa (2022), aseguran que las OSC promueven una mayor participaciÛn e intervenciÛn de la sociedad civil para incidir de forma efectiva en la prevenciÛn y soluciÛn de problem·ticas locales.
-      Los procesos de capacitaciÛn dentro de las OSC, permiten que se genere un impacto m·s significativo dentro de los grupos sociales en donde realizan sus intervenciones (PÈrez RamÌrez et al., 2024). El concepto de capacitaciÛn dentro del ·mbito social puede entenderse como un proceso formativo de aprendizajes dialÈcticos, que promueven el intercambio de conocimientos y experiencias de las comunidades, con la finalidad de generar una
+T√≠tulo del proyecto: Sistema de alfabetizaci√≥n digital para el dise√±o did√°ctico de cursos
+de formaci√≥n en l√≠nea en Organizaciones de la Sociedad Civil
 
-participaciÛn activa para la generaciÛn y promociÛn de polÌticas p˙blicas que beneficien a los distintos grupos sociales (LÛpez y Finol, 2007, p.80, citados en LÛpez Valladares y Campos LÛpez, 2015). Por otra parte, una de las principales problem·ticas a las que se enfrentan las OSC en tÈrminos de capacitaciÛn, es la falta de recursos econÛmicos destinados al fortalecimiento interno de las OSC. Desde esta perspectiva PÈrez RamÌrez et al. (2024), argumentan que las organizaciones que cuentan con escasos recursos presentan dificultades para fomentar el desarrollo institucional, debido a que resulta complicado pagar por capacitaciones u otro tipo de actualizaciones que son necesarias para estas instancias. Por tal motivo, gran parte de las capacitaciones que se dan en este sector tienden a ser no formales.
-      La educaciÛn no formal se define como un proceso educativo estructurado, en cuanto a contenidos y mÈtodos, que no necesariamente lleva a la obtenciÛn de un grado acadÈmico y posee una duraciÛn y objetivos bien definidos, los cuales son desarrollados por instituciones y organizaciones dentro del sector productivo (Do a V·zquez, 1998, citado en ChacÛn-Ortiz, 2015). La UNESCO (2012, citado en ChacÛn-Ortiz, 2015), afirma que la educaciÛn no formal tiende a variar en cuanto a aspectos como la duraciÛn, modalidad y los fines para los cuales son diseÒados para responder a necesidades particulares, sin otorgar una titulaciÛn formal.
-      Dentro de las OSC, se generan din·micas relacionadas con la educaciÛn, ya que al incidir en las personas para mejorar sus condiciones socioculturales, tambiÈn se generan procesos de aprendizaje. Por consiguiente, hablar de EducaciÛn social y de PedagogÌa social adquiere gran relevancia. La educaciÛn social puede entenderse como una forma de educar a las personas, con el objetivo de mejorar sus condiciones socio-emocionales en tÈrminos de bienestar subjetivo, promoviendo una integridad sana de todos los actores sociales en su entorno (Petrus Rotger, 2004). En cambio, la pedagogÌa social se define como una ciencia de car·cter teÛrico-pr·ctico que se centra en la educaciÛn social entendiendo a los distintos grupos de la poblaciÛn y a las comunidades como un conjunto (MartÌnez-Otero PÈrez, 2021). Desde esta perspectiva, la capacitaciÛn se presenta como una necesidad constante en las OSC, ya que el personal requiere desarrollar habilidades que faciliten su labor en el campo social y mejoren sus resultados. En este sentido, la capacitaciÛn online se presenta como una opciÛn viable que fortalece las competencias del personal y reduce las limitaciones en tÈrminos de alcance, tiempo y recursos.
+‚Ä¢
 
-2. EducaciÛn online
-Dentro del mundo de la educaciÛn online, o e-learning, existen diferentes formas de impartir los conocimientos, siendo uno de los m·s comunes el Massive Open Online Course (MOOC). Mauri (2014, citado en Benet Gil et al., 2018), define a los MOOC como cursos gratuitos y abiertos, compuestos por recursos educativos abiertos (OER), que pueden ser cursado por cualquier persona que tenga acceso a internet, sin la necesidad de tener a un profesor o instructor conectado de forma simult·nea. La enseÒanza virtual o e-learning, se ha convertido en una opciÛn viable que ha generado m˙ltiples debates en cuanto a sus usos, aplicaciones, ventajas y retos, lo que ha generado nuevas oportunidades para el desarrollo de sistemas sofisticados como los MOOC, los cuales crean canales de comunicaciÛn eficientes con el objetivo de facilitar los procesos de E-A en entornos virtuales. Independientemente del propÛsito de los contenidos o del p˙blico al que van dirigidos, estos cursos buscan fomentar el acceso al conocimiento mediante procesos estructurados.
-      Dentro del ·mbito de la educaciÛn virtual para que se pueda llevar a cabo el proceso de comunicaciÛn, resultan indispensables los Ambientes Virtuales de Aprendizaje (AVA). Estos son un grupo de medios de interacciÛn con modalidad sincrÛnica o asincrÛnica y a partir de un programa curricular se genera el proceso de E-A a travÈs de un sistema que administra el aprendizaje (Miranda, 2004, citado en Del Carmen et al., 2016). Los AVA fungen como una plataforma tecnolÛgica y como un sistema con una amplia variedad de funciones que favorecen la comunicaciÛn en tiempo real entre docentes y alumnos a travÈs chats, correos, procesos de evaluaciÛn y contenidos diversos (Del Carmen et al., 2016). Dentro de los entornos educativos virtuales, los procesos de comunicaciÛn sincrÛnica y asincrÛnica han permitido diseÒar distintas modalidades de enseÒanza que se adaptan a las necesidades de los estudiantes en ambientes de educaciÛn formal y no formal, generando una din·mica entre estudiante-tecnologÌa-docente.
-      Dentro del campo de actuaciÛn de las OSC, la capacitaciÛn mediada por AVA y sistemas MOOC, no solo facilita los procesos de capacitaciÛn y de seguimiento de avances, sino que tambiÈn transforma la forma en la que se diseÒan, imparten y eval˙an los programas. Sin embargo, para asegurar la efectividad de estos programas en las OSC, es necesario con
+Nombre del estudiante responsable: Eugenio Garc√≠a Rodr√≠guez
 
-un modelo estructurado que establezca las pautas para su desarrollo, como es el caso de la TeorÌa General de Sistemas (TGS).
-3. TeorÌa General de Sistemas
-En el contexto educativo, la TGS aporta un marco para analizar una amplia variedad de escenarios interconectados de forma rigurosa, bas·ndose en elementos como procesos, resultados, retroalimentaciÛn y flujos de informaciÛn o de autocontrol (Colagi‡como & Garagozzo, 2008). El enfoque sistÈmico tiene como objetivo analizar las problem·ticas de manera integral sin separar sus partes, es decir, considerando todas sus interrelaciones (Taipe-Castro, 2022). Adem·s, el enfoque sistÈmico sirve como una metodologÌa para describir la realidad educativa y como estrategia pr·ctica para la optimizaciÛn de sistemas de aprendizaje (¡lvarez, 2004). En el caso del diseÒo y evaluaciÛn de cursos de formaciÛn en lÌnea en OSC, la TGS permite entender cÛmo se integran los distintos elementos, como los participantes, los contenidos, las herramientas tecnolÛgicas empleadas y el contexto formativo.
-      En las Organizaciones de la Sociedad Civil que trabajan con comunidades vulnerables, este enfoque sistÈmico mejora la eficacia de sus programas de capacitaciÛn y facilita el logro de objetivos sociales, al contemplar todas las interacciones y la adaptaciÛn a necesidades cambiantes. Este enfoque resulta especialmente relevante en la formaciÛn y capacitaciÛn, debido a que implica una mayor exigencia en tÈrminos de precisiÛn, interconexiÛn de contenidos y aprendizajes y la pertinencia e impacto a nivel social. Bajo estos escenarios, tanto los docentes como los estudiantes asumen un compromiso mayor al llevar los fundamentos teÛricos al entorno pr·ctico, mismos que tienen como objetivo incidir en la sociedad (Colagi‡como & Garagozzo, 2008). Con esta visiÛn sistÈmica, alineada con las necesidades de formaciÛn del personal de las OSC, el diseÒo instruccional (DI) puede tomarse como base para la estructuraciÛn, organizaciÛn y optimizaciÛn de los cursos formativos en este contexto.
-4. DiseÒo Instruccional
-Dentro del campo de la educaciÛn, ha existido un constante interÈs por el diseÒo de modelos y programas que sean eficientes, es decir, que cumplan con el objetivo de fomentar el
+‚Ä¢
 
-aprendizaje en los alumnos. Con la apariciÛn de las nuevas TecnologÌas de la InformaciÛn y la ComunicaciÛn (TIC), ha surgido la necesidad de incorporar estas herramientas como parte de los procesos educativos, ya sea de forma presencial o virtual, por lo que este proceso ha devenido con una serie de retos para los profesionistas de la educaciÛn.
-      Una de las propuestas m·s sÛlidas que ha permitido la incorporaciÛn de la tecnologÌa dentro del campo de la educaciÛn es el DiseÒo Instruccional (DI), el cual surge de la corriente conductista de la psicologÌa en combinaciÛn con la ingenierÌa en sistemas, aportando un marco lÛgico sistem·tico, que permite analizar las problem·ticas considerando las interacciones externas e internas dentro de un ambiente especÌfico (Molenda, 1997, citado en Williams et al., 2001). Seg˙n la postura de Gu‡rdia Ortiz y Sangr‡ Morer (2005), la funciÛn principal que tiene el DI consiste en relacionar los elementos m·s importantes, con la finalidad de mejorar la pr·ctica en escenarios reales y en contextos especÌficos. Uno de los modelos m·s conocidos de DI es el denominado ADDIE, que por sus siglas hace referencia al An·lisis, DiseÒo, Desarrollo, ImplementaciÛn y EvaluaciÛn (Garza, 2011). Ahora bien, resulta importante seÒalar que, de manera general, cualquier modelo debe cumplir con la capacidad de representar de manera sencilla las formas, procesos y funciones que son complejas, independientemente del contexto donde se desarrollen (Garza, 2011).
-      Una de las caracterÌsticas del ADDIE es que puede modificarse y adaptarse a cualquier escenario, independientemente de los temas y el p˙blico al que va dirigido el curso. Adem·s, cuenta con varios subprocesos que pueden ser empleados en las distintas fases que componen al modelo (Williams et al., 2001). Si bien es cierto que el ADDIE principalmente est· diseÒado para la creaciÛn de cursos y programas de formaciÛn, gracias a la claridad que tiene la estructura de este modelo, algunos expertos en ocasiones lo emplean solo para el diseÒo de alguna etapa especÌfica en sus cursos. En este sentido, el modelo ADDIE, basado en el DI, se alinea estrechamente con la educaciÛn por competencias, ya que permite estructurar el aprendizaje en funciÛn de resultados esperados definidos previamente, favoreciendo no solo el aprendizaje teÛrico, sino tambiÈn la adquisiciÛn de habilidades y el desarrollo de competencias pr·cticas necesarias para el personal de las OSC en contextos profesionales y sociales.
+Colaboradores (Director y/o Co-director): Dra. Violena Hubenova Nencheva
 
-5. EducaciÛn por competencias
-En la actualidad los modelos de educaciÛn y capacitaciÛn predominantes tienen como objetivo la formaciÛn de trabajadores que desempeÒen funciones especÌficas. Es necesario tomar en cuenta el hecho de que las organizaciones se encuentran en un proceso de cambio constante, lo que resulta en una mayor exigencia en cuanto a perfiles m·s actualizados (Grajeda Grajeda, 2016). Con la finalidad de satisfacer esta demanda, las organizaciones buscan acercar estos conocimientos a sus empleados a travÈs de programas de educaciÛn no formal. Uno de los principales obst·culos que enfrenta la educaciÛn no formal, es que no existen par·metros establecidos que puedan garantizar la calidad de los programas.
-      Con la finalidad de subsanar y garantizar la calidad de la formaciÛn de los profesionistas dentro del campo laboral, se crearon propuestas basadas en la educaciÛn por competencias. Lara Ochoa et al. (2017), seÒala que este concepto comenzÛ a utilizarse en MÈxico en los aÒos 90, impulsado a travÈs del Consejo de NormalizaciÛn y CertificaciÛn de Competencias Laborales (CONOCER), con el respaldo de la SecretarÌa de EducaciÛn P˙blica (SEP). La ComisiÛn Europea y autores como RodrÌguez-GarcÌa et al, (citados en AvilÈs- LÛpez y DomÌnguez-Gaona, 2023), seÒalan que las competencias digitales actualmente son las m·s valoradas, ya que suponen un conjunto de habilidades, actitudes y capacidades tecnolÛgicas para ìgestionar, presentar, intercambiar y comunicar informaciÛn en forma presencial o a travÈs de internetî (p.46).
-      Una de las ventajas de la modalidad por competencias es que respalda los saberes del sector laboral, y valida el dominio de un tema o ·rea en especÌfico. La incorporaciÛn del EC0366 en el diseÒo de cursos de formaciÛn online para OSC, facilita la organizaciÛn de los contenidos y garantizar un diseÒo con una estructura sÛlida. Adem·s, su incorporaciÛn favorece el desarrollo de competencias digitales y did·cticas, que pueden ser de gran utilizad en el ·mbito pr·ctico para los profesionistas de las OSC.
+‚Ä¢
 
-5.1 Competencias tecnolÛgicas, pr·cticas y did·cticas
-Para que se genere un buen diseÒo e implementaciÛn de cursos en lÌnea en las OSC es necesario que los capacitadores desarrollen tres tipos de competencias esenciales: digitales, pr·cticas y did·cticas. Cada una de estas competencias es de gran importancia para asegurar
+Centro o lugar donde se realiza investigaci√≥n: Paz y Convivencia Ciudadana A.C.
 
-que los cursos que estos imparten sean efectivos y se adecuen a las necesidades del entorno comunitario.
-      Las competencias digitales, facilitan los procesos y la gestiÛn de los cursos que imparten las OSC. Para lograr una aplicaciÛn efectiva en el ·mbito digital, se deben desarrollar una serie de competencias que permitan la integraciÛn de aspectos tecnolÛgicos, de informaciÛn y comunicaciÛn, axiolÛgicos y pedagÛgicos (Carrasco Lozano et al., 2015). Adem·s, el desarrollo de estas competencias, ayudan a desarrollar el empoderamiento en el ·mbito social, polÌtico, la econÛmico y en la empleabilidadÖ (Marzal y Cruz, 2018, citado en Levano-Francia et al., 2019), lo que supone una serie de ventajas para las OSC y para las comunidades.
-      Por otra parte, en el ·mbito profesional, la mejora de la capacitaciÛn en las OSC, debe tomar en consideraciÛn la integraciÛn de avances tecnolÛgicos, junto con servicios educativos de calidad y pr·cticas pedagÛgicas efectivas (Del Castillo Castro & Cham·n Cabrera, 2021). Finalmente, las competencias did·cticas, aunadas con los avances tecnolÛgicos, permiten la incorporaciÛn de nuevos sistemas de formaciÛn que rompen con los paradigmas cl·sicos de la educaciÛn y generen nuevas fronteras del conocimiento (Amaya et al., 2021).
-      En conclusiÛn, la alfabetizaciÛn digital en OSC no solo implica el dominio de herramientas tecnolÛgicas, sino tambiÈn el desarrollo de estrategias pr·cticas y did·cticas que promuevan un aprendizaje significativo y que atiendan a las necesidades de un contexto comunitario. La integraciÛn de estas competencias fortalece la capacidad de las OSC para brindar procesos de formaciÛn en lÌnea de forma efectiva, mejorando asÌ su impacto social.
+‚Ä¢
 
-III. JUSTIFICACI”N
-Las OSC desempeÒan un papel fundamental en la sociedad, ya que buscan el bienestar com˙n de los ciudadanos. Una de las problem·ticas dentro de estas organizaciones es la necesidad de capacitar a su personal de manera constante, debido a una din·mica social cambiante que se deriva de factores sociodemogr·ficos y culturales. Sin embargo, existen dificultades para llevar a cabo esta tarea, como la falta de espacios adecuados, los altos costos y la disponibilidad de tiempo. En este contexto, los programas de educaciÛn no formal a travÈs
+Tipo de investigaci√≥n b√°sica, aplicada o tecnol√≥gica (dise√±o, construcci√≥n de prototipo
+o prueba experimental): Aplicada
 
-de un AVA se presentan como una opciÛn viable. Como seÒala Escudero-NahÛn et al. (2020, p.99), ìaunque se han publicado varios documentos teÛricos y polÌticos al respecto, no existe suficiente investigaciÛn empÌrica sobre la pertinencia, la posibilidad y la utilidad de la educaciÛn virtual en instituciones que imparten educaciÛn no formalî, por lo que es importante generar nuevas aportaciones en este ·mbito.
-      Para asegurar la calidad de los programas de capacitaciÛn, es necesario un diseÒo claro como el modelo ADDIE, que se compone de las etapas de an·lisis, diseÒo, desarrollo, implementaciÛn y evaluaciÛn (Garza, 2011), las cuales permiten alinear el propÛsito del curso con los contenidos did·cticos en funciÛn de las necesidades de las OSC. TambiÈn, el empleo del EC0366 como herramienta de apoyo, resulta una alternativa viable, ya ofrece una base de referencia para la evaluaciÛn y certificaciÛn de quienes desean diseÒar cursos online apegados a criterios de calidad (CONOCER, 2013). Adem·s, existe un vacÌo de conocimiento en torno a las investigaciones sobre el impacto que tienen los est·ndares emitidos por SEP-CONOCER en contextos de educaciÛn no formal, particularmente en el caso del EC0366 Desarrollo de cursos de formaciÛn en lÌnea.
-      De igual forma, es necesario que el diseÒo de estos programas contemple un enfoque que favorezca el desarrollo integral de los participantes, promoviendo aprendizajes significativos que sean aplicables a un contexto profesional, y que cuenten con una fundamentaciÛn teÛrico-metodolÛgica rigurosa con contenidos did·cticos para facilitar la adquisiciÛn de conocimientos. La pedagogÌa social y educaciÛn social adquieren un papel importante en este punto, ya que promueven una visiÛn integral que se centra en el bienestar de las comunidades y fomentan el empoderamiento de los participantes, ayudando al fortalecimiento social y adapt·ndose a los cambios constantes de los entornos comunitarios. El sistema propuesto busca desarrollar competencias tecnolÛgicas, pr·cticas y did·cticas necesarias para el diseÒo de cursos de formaciÛn online. Estas competencias incluyen:
-1. Competencias tecnolÛgicas: CapacitaciÛn en el manejo de software como MOODLE y herramientas de ediciÛn de video, texto y audio, es decir, elementos multimedia que son esenciales para el proceso de enseÒanza-aprendizaje (E-A) en plataformas de e- learning.
+‚Ä¢
 
-2. Competencias pr·cticas: Desarrollo de conocimientos aplicados en el diseÒo de cursos online, integrando el uso de herramientas tecnolÛgicas con habilidades operativas y pedagÛgicas para garantizar una implementaciÛn efectiva.
-3. Competencias did·cticas: Desarrollo de habilidades did·cticas para mejorar la transferencia efectiva del conocimiento, promoviendo un aprendizaje significativo en el entorno social y comunitario donde operan las OSC.
-      Con base en lo anterior, se propone un sistema de alfabetizaciÛn digital para el diseÒo de cursos de formaciÛn en lÌnea en OSC, fundamentado en el modelo ADDIE y en la TGS. Este sistema se presenta como una soluciÛn integral que permite a las OSC adquirir las competencias tÈcnicas, pedagÛgicas y did·cticas necesarias para el diseÒo de cursos online y pretende, estructurar de forma clara y efectiva, los procesos de capacitaciÛn en las OSC, de manera tal que sea replicable y se adapte a las necesidades de las organizaciones. Para lograr lo anterior, esta propuesta pretende incorporar elementos de formaciÛn innovadoras en tÈrminos de pedagogÌa y educaciÛn social, de manera tal que permita promover una visiÛn integral que se centre en el bienestar de las comunidades y en la pr·ctica profesional en el campo de la intervenciÛn social.
+L√≠nea de investigaci√≥n sobre la cual se desarrollar√° el trabajo (LGAC): Las TIC en
+modelos educativos escolares y laborales.
 
-IV. DESCRIPCI”N DEL PROBLEMA
-Las Organizaciones de la Sociedad Civil (OSC) desempeÒan un papel crucial en el bienestar de la ciudadanÌa, ya que atienden las necesidades de la poblaciÛn en donde el Estado o el sector empresarial tienen limitaciones o poca incidencia. Sin embargo, estas organizaciones se enfrentan al desafÌo constante de adaptarse a un entorno social din·mico y cambiante. Una de las principales estrategias para enfrentar las nuevas problem·ticas sociales se da a travÈs de la capacitaciÛn del personal, sin embargo, este proceso a menudo se ve obstaculizado por limitaciones de recursos, infraestructura y tiempo.
-      El desarrollo de programas de educaciÛn no formal a travÈs de un AVA surge como una soluciÛn viable para superar las barreras que presentan las OSC relacionadas con la capacitaciÛn de su personal. Desde una perspectiva sistÈmica, es fundamental considerar las interacciones entre los distintos subsistemas (participantes, recursos tecnolÛgicos, contenidos y contextos organizacionales) para lograr que el proceso de formaciÛn sea estructurado,
+II. ANTECEDENTES Y/O FUNDAMENTACI√ìN TE√ìRICA
+En esta secci√≥n se presentan los fundamentos te√≥ricos y conceptos m√°s relevantes que
+sustentan el presente estudio. Se analizar√° la necesidad de crear un sistema de alfabetizaci√≥n
+digital para el dise√±o de cursos de formaci√≥n en l√≠nea en OSC que promueva la generaci√≥n
+de aprendizajes significativos para responder a las necesidades emergentes que atienden las
+organizaciones.
+1. Organizaciones de la Sociedad Civil y capacitaci√≥n
+Las Organizaciones de la Sociedad Civil (OSC), tambi√©n conocidas como organizaciones del
+tercer sector, representan un pilar fundamental para la sociedad debido a que tienen como
+objetivo buscar mejorar las condiciones sociales y estructurales de la poblaci√≥n en general.
+En este sentido, Hurtado Saa y Villa (2022), aseguran que las OSC promueven una mayor
+participaci√≥n e intervenci√≥n de la sociedad civil para incidir de forma efectiva en la
+prevenci√≥n y soluci√≥n de problem√°ticas locales.
+Los procesos de capacitaci√≥n dentro de las OSC, permiten que se genere un impacto
+m√°s significativo dentro de los grupos sociales en donde realizan sus intervenciones (P√©rez
+Ram√≠rez et al., 2024). El concepto de capacitaci√≥n dentro del √°mbito social puede entenderse
+como un proceso formativo de aprendizajes dial√©cticos, que promueven el intercambio de
+conocimientos y experiencias de las comunidades, con la finalidad de generar una
 
-sostenible y replicable. En este sentido, la TeorÌa General de Sistemas (TGS) proporciona un marco que permite visualizar cÛmo cada elemento de la capacitaciÛn influye en el conjunto, potenciando la eficacia de la formaciÛn
-      Sin embargo, la efectividad de estos programas depende en gran medida de un diseÒo adecuado y del desarrollo de las competencias necesarias, como las tecnolÛgicas, pr·cticas y did·cticas. En el ·mbito tecnolÛgico, es fundamental que los participantes desarrollen habilidades para el manejo de software y para la creaciÛn y gestiÛn de plataformas como MOODLE, asÌ como para la creaciÛn de contenido multimedia, como el video, texto y audio. En el aspecto pr·ctico, es necesario que adquieran conocimientos aplicados al diseÒo de cursos de formaciÛn online, de manera que puedan estructurar contenidos efectivos que se alineen con los objetivos de aprendizaje. Finalmente, en el ·rea did·ctica, resulta necesario que desarrollen estrategias para la transferencia del conocimiento con base en principios pedagÛgicos, de modo que los contenidos sean f·ciles de entender y generen aprendizajes significativos e incidan dentro del contexto social.
-      Por consiguiente, resulta de gran relevancia investigar de quÈ manera puede diseÒarse e implementarse un sistema de alfabetizaciÛn digital, fundamentado en la TGS, que optimice la efectividad de la capacitaciÛn online en las OSC. Esto implica la integraciÛn coherente de tecnologÌas educativas, metodologÌas pr·cticas y did·cticas, el modelo ADDIE, el est·ndar EC0366, enfoques de pedagogÌa social y estrategias de educaciÛn por competencias, con el fin de fomentar aprendizajes significativos y atender las necesidades especÌficas de las comunidades en las que buscan incidir estas organizaciones.
+2
 
-V. PLANTEAMIENTO TE”RICO (HipÛtesis y/o supuestos, pregunta, etc.)
+PROTOCOLO DE INVESTIGACI√ìN
 
+participaci√≥n activa para la generaci√≥n y promoci√≥n de pol√≠ticas p√∫blicas que beneficien a
+los distintos grupos sociales (L√≥pez y Finol, 2007, p.80, citados en L√≥pez Valladares y
+Campos L√≥pez, 2015). Por otra parte, una de las principales problem√°ticas a las que se
+enfrentan las OSC en t√©rminos de capacitaci√≥n, es la falta de recursos econ√≥micos destinados
+al fortalecimiento interno de las OSC. Desde esta perspectiva P√©rez Ram√≠rez et al. (2024),
+argumentan que las organizaciones que cuentan con escasos recursos presentan dificultades
+para fomentar el desarrollo institucional, debido a que resulta complicado pagar por
+capacitaciones u otro tipo de actualizaciones que son necesarias para estas instancias. Por tal
+motivo, gran parte de las capacitaciones que se dan en este sector tienden a ser no formales.
+La educaci√≥n no formal se define como un proceso educativo estructurado, en cuanto
+a contenidos y m√©todos, que no necesariamente lleva a la obtenci√≥n de un grado acad√©mico
+y posee una duraci√≥n y objetivos bien definidos, los cuales son desarrollados por instituciones
+y organizaciones dentro del sector productivo (Do a V√°zquez, 1998, citado en Chac√≥n-Ortiz,
+2015). La UNESCO (2012, citado en Chac√≥n-Ortiz, 2015), afirma que la educaci√≥n no formal
+tiende a variar en cuanto a aspectos como la duraci√≥n, modalidad y los fines para los cuales
+son dise√±ados para responder a necesidades particulares, sin otorgar una titulaci√≥n formal.
+Dentro de las OSC, se generan din√°micas relacionadas con la educaci√≥n, ya que al
+incidir en las personas para mejorar sus condiciones socioculturales, tambi√©n se generan
+procesos de aprendizaje. Por consiguiente, hablar de Educaci√≥n social y de Pedagog√≠a social
+adquiere gran relevancia. La educaci√≥n social puede entenderse como una forma de educar a
+las personas, con el objetivo de mejorar sus condiciones socio-emocionales en t√©rminos de
+bienestar subjetivo, promoviendo una integridad sana de todos los actores sociales en su
+entorno (Petrus Rotger, 2004). En cambio, la pedagog√≠a social se define como una ciencia de
+car√°cter te√≥rico-pr√°ctico que se centra en la educaci√≥n social entendiendo a los distintos
+grupos de la poblaci√≥n y a las comunidades como un conjunto (Mart√≠nez-Otero P√©rez, 2021).
+Desde esta perspectiva, la capacitaci√≥n se presenta como una necesidad constante en las OSC,
+ya que el personal requiere desarrollar habilidades que faciliten su labor en el campo social
+y mejoren sus resultados. En este sentido, la capacitaci√≥n online se presenta como una opci√≥n
+viable que fortalece las competencias del personal y reduce las limitaciones en t√©rminos de
+alcance, tiempo y recursos.
+3
 
-Preguntas de investigaciÛn
-Pregunta principal: øCÛmo influye un sistema de alfabetizaciÛn digital, basado en la integraciÛn de la TeorÌa General de Sistemas (TGS) y el modelo ADDIE, en la mejora de la calidad y efectividad de las capacitaciones online impartidas por OSC?
+PROTOCOLO DE INVESTIGACI√ìN
+
+2. Educaci√≥n online
+Dentro del mundo de la educaci√≥n online, o e-learning, existen diferentes formas de impartir
+los conocimientos, siendo uno de los m√°s comunes el Massive Open Online Course (MOOC).
+Mauri (2014, citado en Benet Gil et al., 2018), define a los MOOC como cursos gratuitos y
+abiertos, compuestos por recursos educativos abiertos (OER), que pueden ser cursado por
+cualquier persona que tenga acceso a internet, sin la necesidad de tener a un profesor o
+instructor conectado de forma simult√°nea. La ense√±anza virtual o e-learning, se ha convertido
+en una opci√≥n viable que ha generado m√∫ltiples debates en cuanto a sus usos, aplicaciones,
+ventajas y retos, lo que ha generado nuevas oportunidades para el desarrollo de sistemas
+sofisticados como los MOOC, los cuales crean canales de comunicaci√≥n eficientes con el
+objetivo de facilitar los procesos de E-A en entornos virtuales. Independientemente del
+prop√≥sito de los contenidos o del p√∫blico al que van dirigidos, estos cursos buscan fomentar
+el acceso al conocimiento mediante procesos estructurados.
+Dentro del √°mbito de la educaci√≥n virtual para que se pueda llevar a cabo el proceso
+de comunicaci√≥n, resultan indispensables los Ambientes Virtuales de Aprendizaje (AVA).
+Estos son un grupo de medios de interacci√≥n con modalidad sincr√≥nica o asincr√≥nica y a
+partir de un programa curricular se genera el proceso de E-A a trav√©s de un sistema que
+administra el aprendizaje (Miranda, 2004, citado en Del Carmen et al., 2016). Los AVA
+fungen como una plataforma tecnol√≥gica y como un sistema con una amplia variedad de
+funciones que favorecen la comunicaci√≥n en tiempo real entre docentes y alumnos a trav√©s
+chats, correos, procesos de evaluaci√≥n y contenidos diversos (Del Carmen et al., 2016).
+Dentro de los entornos educativos virtuales, los procesos de comunicaci√≥n sincr√≥nica y
+asincr√≥nica han permitido dise√±ar distintas modalidades de ense√±anza que se adaptan a las
+necesidades de los estudiantes en ambientes de educaci√≥n formal y no formal, generando una
+din√°mica entre estudiante-tecnolog√≠a-docente.
+Dentro del campo de actuaci√≥n de las OSC, la capacitaci√≥n mediada por AVA y
+sistemas MOOC, no solo facilita los procesos de capacitaci√≥n y de seguimiento de avances,
+sino que tambi√©n transforma la forma en la que se dise√±an, imparten y eval√∫an los programas.
+Sin embargo, para asegurar la efectividad de estos programas en las OSC, es necesario con
+
+4
+
+PROTOCOLO DE INVESTIGACI√ìN
+
+un modelo estructurado que establezca las pautas para su desarrollo, como es el caso de la
+Teor√≠a General de Sistemas (TGS).
+3. Teor√≠a General de Sistemas
+En el contexto educativo, la TGS aporta un marco para analizar una amplia variedad de
+escenarios interconectados de forma rigurosa, bas√°ndose en elementos como procesos,
+resultados, retroalimentaci√≥n y flujos de informaci√≥n o de autocontrol (Colagi√†como &
+Garagozzo, 2008). El enfoque sist√©mico tiene como objetivo analizar las problem√°ticas de
+manera integral sin separar sus partes, es decir, considerando todas sus interrelaciones
+(Taipe-Castro, 2022). Adem√°s, el enfoque sist√©mico sirve como una metodolog√≠a para
+describir la realidad educativa y como estrategia pr√°ctica para la optimizaci√≥n de sistemas de
+aprendizaje (√Ålvarez, 2004). En el caso del dise√±o y evaluaci√≥n de cursos de formaci√≥n en
+l√≠nea en OSC, la TGS permite entender c√≥mo se integran los distintos elementos, como los
+participantes, los contenidos, las herramientas tecnol√≥gicas empleadas y el contexto
+formativo.
+En las Organizaciones de la Sociedad Civil que trabajan con comunidades
+vulnerables, este enfoque sist√©mico mejora la eficacia de sus programas de capacitaci√≥n y
+facilita el logro de objetivos sociales, al contemplar todas las interacciones y la adaptaci√≥n a
+necesidades cambiantes. Este enfoque resulta especialmente relevante en la formaci√≥n y
+capacitaci√≥n, debido a que implica una mayor exigencia en t√©rminos de precisi√≥n,
+interconexi√≥n de contenidos y aprendizajes y la pertinencia e impacto a nivel social. Bajo
+estos escenarios, tanto los docentes como los estudiantes asumen un compromiso mayor al
+llevar los fundamentos te√≥ricos al entorno pr√°ctico, mismos que tienen como objetivo incidir
+en la sociedad (Colagi√†como & Garagozzo, 2008). Con esta visi√≥n sist√©mica, alineada con
+las necesidades de formaci√≥n del personal de las OSC, el dise√±o instruccional (DI) puede
+tomarse como base para la estructuraci√≥n, organizaci√≥n y optimizaci√≥n de los cursos
+formativos en este contexto.
+4. Dise√±o Instruccional
+Dentro del campo de la educaci√≥n, ha existido un constante inter√©s por el dise√±o de modelos
+y programas que sean eficientes, es decir, que cumplan con el objetivo de fomentar el
+5
+
+PROTOCOLO DE INVESTIGACI√ìN
+
+aprendizaje en los alumnos. Con la aparici√≥n de las nuevas Tecnolog√≠as de la Informaci√≥n y
+la Comunicaci√≥n (TIC), ha surgido la necesidad de incorporar estas herramientas como parte
+de los procesos educativos, ya sea de forma presencial o virtual, por lo que este proceso ha
+devenido con una serie de retos para los profesionistas de la educaci√≥n.
+Una de las propuestas m√°s s√≥lidas que ha permitido la incorporaci√≥n de la tecnolog√≠a
+dentro del campo de la educaci√≥n es el Dise√±o Instruccional (DI), el cual surge de la corriente
+conductista de la psicolog√≠a en combinaci√≥n con la ingenier√≠a en sistemas, aportando un
+marco l√≥gico sistem√°tico, que permite analizar las problem√°ticas considerando las
+interacciones externas e internas dentro de un ambiente espec√≠fico (Molenda, 1997, citado en
+Williams et al., 2001). Seg√∫n la postura de Gu√†rdia Ortiz y Sangr√† Morer (2005), la funci√≥n
+principal que tiene el DI consiste en relacionar los elementos m√°s importantes, con la
+finalidad de mejorar la pr√°ctica en escenarios reales y en contextos espec√≠ficos. Uno de los
+modelos m√°s conocidos de DI es el denominado ADDIE, que por sus siglas hace referencia
+al An√°lisis, Dise√±o, Desarrollo, Implementaci√≥n y Evaluaci√≥n (Garza, 2011). Ahora bien,
+resulta importante se√±alar que, de manera general, cualquier modelo debe cumplir con la
+capacidad de representar de manera sencilla las formas, procesos y funciones que son
+complejas, independientemente del contexto donde se desarrollen (Garza, 2011).
+Una de las caracter√≠sticas del ADDIE es que puede modificarse y adaptarse a
+cualquier escenario, independientemente de los temas y el p√∫blico al que va dirigido el curso.
+Adem√°s, cuenta con varios subprocesos que pueden ser empleados en las distintas fases que
+componen al modelo (Williams et al., 2001). Si bien es cierto que el ADDIE principalmente
+est√° dise√±ado para la creaci√≥n de cursos y programas de formaci√≥n, gracias a la claridad que
+tiene la estructura de este modelo, algunos expertos en ocasiones lo emplean solo para el
+dise√±o de alguna etapa espec√≠fica en sus cursos. En este sentido, el modelo ADDIE, basado
+en el DI, se alinea estrechamente con la educaci√≥n por competencias, ya que permite
+estructurar el aprendizaje en funci√≥n de resultados esperados definidos previamente,
+favoreciendo no solo el aprendizaje te√≥rico, sino tambi√©n la adquisici√≥n de habilidades y el
+desarrollo de competencias pr√°cticas necesarias para el personal de las OSC en contextos
+profesionales y sociales.
+
+6
+
+PROTOCOLO DE INVESTIGACI√ìN
+
+5. Educaci√≥n por competencias
+En la actualidad los modelos de educaci√≥n y capacitaci√≥n predominantes tienen como
+objetivo la formaci√≥n de trabajadores que desempe√±en funciones espec√≠ficas. Es necesario
+tomar en cuenta el hecho de que las organizaciones se encuentran en un proceso de cambio
+constante, lo que resulta en una mayor exigencia en cuanto a perfiles m√°s actualizados
+(Grajeda Grajeda, 2016). Con la finalidad de satisfacer esta demanda, las organizaciones
+buscan acercar estos conocimientos a sus empleados a trav√©s de programas de educaci√≥n no
+formal. Uno de los principales obst√°culos que enfrenta la educaci√≥n no formal, es que no
+existen par√°metros establecidos que puedan garantizar la calidad de los programas.
+Con la finalidad de subsanar y garantizar la calidad de la formaci√≥n de los
+profesionistas dentro del campo laboral, se crearon propuestas basadas en la educaci√≥n por
+competencias. Lara Ochoa et al. (2017), se√±ala que este concepto comenz√≥ a utilizarse en
+M√©xico en los a√±os 90, impulsado a trav√©s del Consejo de Normalizaci√≥n y Certificaci√≥n de
+Competencias Laborales (CONOCER), con el respaldo de la Secretar√≠a de Educaci√≥n P√∫blica
+(SEP). La Comisi√≥n Europea y autores como Rodr√≠guez-Garc√≠a et al, (citados en Avil√©sL√≥pez y Dom√≠nguez-Gaona, 2023), se√±alan que las competencias digitales actualmente son
+las m√°s valoradas, ya que suponen un conjunto de habilidades, actitudes y capacidades
+tecnol√≥gicas para ‚Äúgestionar, presentar, intercambiar y comunicar informaci√≥n en forma
+presencial o a trav√©s de internet‚Äù (p.46).
+Una de las ventajas de la modalidad por competencias es que respalda los saberes del
+sector laboral, y valida el dominio de un tema o √°rea en espec√≠fico. La incorporaci√≥n del
+EC0366 en el dise√±o de cursos de formaci√≥n online para OSC, facilita la organizaci√≥n de los
+contenidos y garantizar un dise√±o con una estructura s√≥lida. Adem√°s, su incorporaci√≥n
+favorece el desarrollo de competencias digitales y did√°cticas, que pueden ser de gran utilizad
+en el √°mbito pr√°ctico para los profesionistas de las OSC.
+
+5.1 Competencias tecnol√≥gicas, pr√°cticas y did√°cticas
+Para que se genere un buen dise√±o e implementaci√≥n de cursos en l√≠nea en las OSC es
+necesario que los capacitadores desarrollen tres tipos de competencias esenciales: digitales,
+pr√°cticas y did√°cticas. Cada una de estas competencias es de gran importancia para asegurar
+7
+
+PROTOCOLO DE INVESTIGACI√ìN
+
+que los cursos que estos imparten sean efectivos y se adecuen a las necesidades del entorno
+comunitario.
+Las competencias digitales, facilitan los procesos y la gesti√≥n de los cursos que
+imparten las OSC. Para lograr una aplicaci√≥n efectiva en el √°mbito digital, se deben
+desarrollar una serie de competencias que permitan la integraci√≥n de aspectos tecnol√≥gicos,
+de informaci√≥n y comunicaci√≥n, axiol√≥gicos y pedag√≥gicos (Carrasco Lozano et al., 2015).
+Adem√°s, el desarrollo de estas competencias, ayudan a desarrollar el empoderamiento en el
+√°mbito social, pol√≠tico, la econ√≥mico y en la empleabilidad‚Ä¶ (Marzal y Cruz, 2018, citado
+en Levano-Francia et al., 2019), lo que supone una serie de ventajas para las OSC y para las
+comunidades.
+Por otra parte, en el √°mbito profesional, la mejora de la capacitaci√≥n en las OSC,
+debe tomar en consideraci√≥n la integraci√≥n de avances tecnol√≥gicos, junto con servicios
+educativos de calidad y pr√°cticas pedag√≥gicas efectivas (Del Castillo Castro & Cham√°n
+Cabrera, 2021). Finalmente, las competencias did√°cticas, aunadas con los avances
+tecnol√≥gicos, permiten la incorporaci√≥n de nuevos sistemas de formaci√≥n que rompen con
+los paradigmas cl√°sicos de la educaci√≥n y generen nuevas fronteras del conocimiento (Amaya
+et al., 2021).
+En conclusi√≥n, la alfabetizaci√≥n digital en OSC no solo implica el dominio de
+herramientas tecnol√≥gicas, sino tambi√©n el desarrollo de estrategias pr√°cticas y did√°cticas
+que promuevan un aprendizaje significativo y que atiendan a las necesidades de un contexto
+comunitario. La integraci√≥n de estas competencias fortalece la capacidad de las OSC para
+brindar procesos de formaci√≥n en l√≠nea de forma efectiva, mejorando as√≠ su impacto social.
+
+III. JUSTIFICACI√ìN
+Las OSC desempe√±an un papel fundamental en la sociedad, ya que buscan el bienestar com√∫n
+de los ciudadanos. Una de las problem√°ticas dentro de estas organizaciones es la necesidad
+de capacitar a su personal de manera constante, debido a una din√°mica social cambiante que
+se deriva de factores sociodemogr√°ficos y culturales. Sin embargo, existen dificultades para
+llevar a cabo esta tarea, como la falta de espacios adecuados, los altos costos y la
+disponibilidad de tiempo. En este contexto, los programas de educaci√≥n no formal a trav√©s
+8
+
+PROTOCOLO DE INVESTIGACI√ìN
+
+de un AVA se presentan como una opci√≥n viable. Como se√±ala Escudero-Nah√≥n et al. (2020,
+p.99), ‚Äúaunque se han publicado varios documentos te√≥ricos y pol√≠ticos al respecto, no existe
+suficiente investigaci√≥n emp√≠rica sobre la pertinencia, la posibilidad y la utilidad de la
+educaci√≥n virtual en instituciones que imparten educaci√≥n no formal‚Äù, por lo que es
+importante generar nuevas aportaciones en este √°mbito.
+Para asegurar la calidad de los programas de capacitaci√≥n, es necesario un dise√±o
+claro como el modelo ADDIE, que se compone de las etapas de an√°lisis, dise√±o, desarrollo,
+implementaci√≥n y evaluaci√≥n (Garza, 2011), las cuales permiten alinear el prop√≥sito del
+curso con los contenidos did√°cticos en funci√≥n de las necesidades de las OSC. Tambi√©n, el
+empleo del EC0366 como herramienta de apoyo, resulta una alternativa viable, ya ofrece una
+base de referencia para la evaluaci√≥n y certificaci√≥n de quienes desean dise√±ar cursos online
+apegados a criterios de calidad (CONOCER, 2013). Adem√°s, existe un vac√≠o de
+conocimiento en torno a las investigaciones sobre el impacto que tienen los est√°ndares
+emitidos por SEP-CONOCER en contextos de educaci√≥n no formal, particularmente en el
+caso del EC0366 Desarrollo de cursos de formaci√≥n en l√≠nea.
+De igual forma, es necesario que el dise√±o de estos programas contemple un enfoque
+que favorezca el desarrollo integral de los participantes, promoviendo aprendizajes
+significativos que sean aplicables a un contexto profesional, y que cuenten con una
+fundamentaci√≥n te√≥rico-metodol√≥gica rigurosa con contenidos did√°cticos para facilitar la
+adquisici√≥n de conocimientos. La pedagog√≠a social y educaci√≥n social adquieren un papel
+importante en este punto, ya que promueven una visi√≥n integral que se centra en el bienestar
+de las comunidades y fomentan el empoderamiento de los participantes, ayudando al
+fortalecimiento social y adapt√°ndose a los cambios constantes de los entornos comunitarios.
+El sistema propuesto busca desarrollar competencias tecnol√≥gicas, pr√°cticas y did√°cticas
+necesarias para el dise√±o de cursos de formaci√≥n online. Estas competencias incluyen:
+1. Competencias tecnol√≥gicas: Capacitaci√≥n en el manejo de software como MOODLE
+y herramientas de edici√≥n de video, texto y audio, es decir, elementos multimedia que
+son esenciales para el proceso de ense√±anza-aprendizaje (E-A) en plataformas de elearning.
+
+9
+
+PROTOCOLO DE INVESTIGACI√ìN
+
+2. Competencias pr√°cticas: Desarrollo de conocimientos aplicados en el dise√±o de
+cursos online, integrando el uso de herramientas tecnol√≥gicas con habilidades
+operativas y pedag√≥gicas para garantizar una implementaci√≥n efectiva.
+3. Competencias did√°cticas: Desarrollo de habilidades did√°cticas para mejorar la
+transferencia efectiva del conocimiento, promoviendo un aprendizaje significativo en
+el entorno social y comunitario donde operan las OSC.
+Con base en lo anterior, se propone un sistema de alfabetizaci√≥n digital para el dise√±o
+de cursos de formaci√≥n en l√≠nea en OSC, fundamentado en el modelo ADDIE y en la TGS.
+Este sistema se presenta como una soluci√≥n integral que permite a las OSC adquirir las
+competencias t√©cnicas, pedag√≥gicas y did√°cticas necesarias para el dise√±o de cursos online y
+pretende, estructurar de forma clara y efectiva, los procesos de capacitaci√≥n en las OSC, de
+manera tal que sea replicable y se adapte a las necesidades de las organizaciones. Para lograr
+lo anterior, esta propuesta pretende incorporar elementos de formaci√≥n innovadoras en
+t√©rminos de pedagog√≠a y educaci√≥n social, de manera tal que permita promover una visi√≥n
+integral que se centre en el bienestar de las comunidades y en la pr√°ctica profesional en el
+campo de la intervenci√≥n social.
+
+IV. DESCRIPCI√ìN DEL PROBLEMA
+Las Organizaciones de la Sociedad Civil (OSC) desempe√±an un papel crucial en el bienestar
+de la ciudadan√≠a, ya que atienden las necesidades de la poblaci√≥n en donde el Estado o el
+sector empresarial tienen limitaciones o poca incidencia. Sin embargo, estas organizaciones
+se enfrentan al desaf√≠o constante de adaptarse a un entorno social din√°mico y cambiante. Una
+de las principales estrategias para enfrentar las nuevas problem√°ticas sociales se da a trav√©s
+de la capacitaci√≥n del personal, sin embargo, este proceso a menudo se ve obstaculizado por
+limitaciones de recursos, infraestructura y tiempo.
+El desarrollo de programas de educaci√≥n no formal a trav√©s de un AVA surge como
+una soluci√≥n viable para superar las barreras que presentan las OSC relacionadas con la
+capacitaci√≥n de su personal. Desde una perspectiva sist√©mica, es fundamental considerar las
+interacciones entre los distintos subsistemas (participantes, recursos tecnol√≥gicos, contenidos
+y contextos organizacionales) para lograr que el proceso de formaci√≥n sea estructurado,
+10
+
+PROTOCOLO DE INVESTIGACI√ìN
+
+sostenible y replicable. En este sentido, la Teor√≠a General de Sistemas (TGS) proporciona un
+marco que permite visualizar c√≥mo cada elemento de la capacitaci√≥n influye en el conjunto,
+potenciando la eficacia de la formaci√≥n
+Sin embargo, la efectividad de estos programas depende en gran medida de un dise√±o
+adecuado y del desarrollo de las competencias necesarias, como las tecnol√≥gicas, pr√°cticas y
+did√°cticas. En el √°mbito tecnol√≥gico, es fundamental que los participantes desarrollen
+habilidades para el manejo de software y para la creaci√≥n y gesti√≥n de plataformas como
+MOODLE, as√≠ como para la creaci√≥n de contenido multimedia, como el video, texto y audio.
+En el aspecto pr√°ctico, es necesario que adquieran conocimientos aplicados al dise√±o de
+cursos de formaci√≥n online, de manera que puedan estructurar contenidos efectivos que se
+alineen con los objetivos de aprendizaje. Finalmente, en el √°rea did√°ctica, resulta necesario
+que desarrollen estrategias para la transferencia del conocimiento con base en principios
+pedag√≥gicos, de modo que los contenidos sean f√°ciles de entender y generen aprendizajes
+significativos e incidan dentro del contexto social.
+Por consiguiente, resulta de gran relevancia investigar de qu√© manera puede dise√±arse
+e implementarse un sistema de alfabetizaci√≥n digital, fundamentado en la TGS, que optimice
+la efectividad de la capacitaci√≥n online en las OSC. Esto implica la integraci√≥n coherente de
+tecnolog√≠as educativas, metodolog√≠as pr√°cticas y did√°cticas, el modelo ADDIE, el est√°ndar
+EC0366, enfoques de pedagog√≠a social y estrategias de educaci√≥n por competencias, con el
+fin de fomentar aprendizajes significativos y atender las necesidades espec√≠ficas de las
+comunidades en las que buscan incidir estas organizaciones.
+
+V. PLANTEAMIENTO TE√ìRICO (Hip√≥tesis y/o supuestos, pregunta, etc.)
+
+Preguntas de investigaci√≥n
+Pregunta principal: ¬øC√≥mo influye un sistema de alfabetizaci√≥n digital, basado en la
+integraci√≥n de la Teor√≠a General de Sistemas (TGS) y el modelo ADDIE, en la mejora de la
+calidad y efectividad de las capacitaciones online impartidas por OSC?
 
 Preguntas secundarias:
+11
 
-* øCu·les son las competencias digitales, pr·cticas y did·cticas necesarias para que el personal de OSC diseÒe cursos en lÌnea que promuevan aprendizajes significativos y respondan a las necesidades de las comunidades atendidas?
-* øCÛmo pueden los enfoques de pedagogÌa y educaciÛn social, integrados bajo un enfoque sistÈmico, mejorar el diseÒo y la implementaciÛn de cursos en lÌnea para las OSC?
-* øCÛmo contribuye el fortalecimiento de capacidades del personal de las OSC a la sostenibilidad y replicabilidad de las capacitaciones online?
+PROTOCOLO DE INVESTIGACI√ìN
 
-HipÛtesis
-HipÛtesis principal: La implementaciÛn de un sistema de alfabetizaciÛn digital, fundamentado en la TGS y el modelo ADDIE, enfocado en el desarrollo de competencias digitales, pr·cticas y did·cticas, a travÈs de un programa de fortalecimiento dirigido al personal de las OSC para mejorar sus capacidades en el diseÒo e implementaciÛn de cursos de formaciÛn online, incrementar· significativamente la calidad del diseÒo y la efectividad de las capacitaciones online, promoviendo aprendizajes significativos que respondan a las necesidades de las comunidades atendidas.
+‚Ä¢
 
-HipÛtesis secundarias:
-* El desarrollo de competencias digitales, pr·cticas y did·cticas en el personal de las OSC, a travÈs del programa de alfabetizaciÛn digital, mejorar· la calidad del diseÒo y la implementaciÛn de cursos de formaciÛn online, generando aprendizajes significativos.
-* La integraciÛn de la TeorÌa General de Sistemas (TGS) y el modelo ADDIE en un sistema de alfabetizaciÛn digital permite optimizar los procesos de planificaciÛn, diseÒo y evaluaciÛn de las capacitaciones online en las OSC, incrementando su efectividad y adaptabilidad en los diferentes contextos y necesidades especÌficas de las comunidades que atienden.
+¬øCu√°les son las competencias digitales, pr√°cticas y did√°cticas necesarias para que el
+personal de OSC dise√±e cursos en l√≠nea que promuevan aprendizajes significativos y
+respondan a las necesidades de las comunidades atendidas?
 
-* El fortalecimiento de las capacidades del personal de las OSC en el diseÒo de cursos de formaciÛn online favorece la sostenibilidad y replicabilidad de las capacitaciones, permitiendo su adaptaciÛn en diversos contextos acorde con las necesidades comunitarias.
+‚Ä¢
+
+¬øC√≥mo pueden los enfoques de pedagog√≠a y educaci√≥n social, integrados bajo un
+enfoque sist√©mico, mejorar el dise√±o y la implementaci√≥n de cursos en l√≠nea para las
+OSC?
+
+‚Ä¢
+
+¬øC√≥mo contribuye el fortalecimiento de capacidades del personal de las OSC a la
+sostenibilidad y replicabilidad de las capacitaciones online?
+
+Hip√≥tesis
+Hip√≥tesis principal: La implementaci√≥n de un sistema de alfabetizaci√≥n digital,
+fundamentado en la TGS y el modelo ADDIE, enfocado en el desarrollo de competencias
+digitales, pr√°cticas y did√°cticas, a trav√©s de un programa de fortalecimiento dirigido al
+personal de las OSC para mejorar sus capacidades en el dise√±o e implementaci√≥n de cursos
+de formaci√≥n online, incrementar√° significativamente la calidad del dise√±o y la efectividad
+de las capacitaciones online, promoviendo aprendizajes significativos que respondan a las
+necesidades de las comunidades atendidas.
+
+Hip√≥tesis secundarias:
+‚Ä¢
+
+El desarrollo de competencias digitales, pr√°cticas y did√°cticas en el personal de las
+OSC, a trav√©s del programa de alfabetizaci√≥n digital, mejorar√° la calidad del dise√±o
+y la implementaci√≥n de cursos de formaci√≥n online, generando aprendizajes
+significativos.
+
+‚Ä¢
+
+La integraci√≥n de la Teor√≠a General de Sistemas (TGS) y el modelo ADDIE en un
+sistema de alfabetizaci√≥n digital permite optimizar los procesos de planificaci√≥n,
+dise√±o y evaluaci√≥n de las capacitaciones online en las OSC, incrementando su
+efectividad y adaptabilidad en los diferentes contextos y necesidades espec√≠ficas de
+las comunidades que atienden.
+
+12
+
+PROTOCOLO DE INVESTIGACI√ìN
+
+‚Ä¢
+
+El fortalecimiento de las capacidades del personal de las OSC en el dise√±o de cursos
+de formaci√≥n online favorece la sostenibilidad y replicabilidad de las capacitaciones,
+permitiendo su adaptaci√≥n en diversos contextos acorde con las necesidades
+comunitarias.
 
 VI. OBJETIVOS
 Objetivo general:
-DiseÒar, implementar y evaluar un programa de alfabetizaciÛn digital para el personal de las OSC, fundamentado en la TGS y el modelo ADDIE, que fortalezca el desarrollo de competencias digitales, operativas y did·cticas, con el fin de mejorar la calidad del diseÒo y la efectividad de las capacitaciones online, promoviendo aprendizajes significativos que respondan a las necesidades de las comunidades atendidas.
+Dise√±ar, implementar y evaluar un programa de alfabetizaci√≥n digital para el personal de las
+OSC, fundamentado en la TGS y el modelo ADDIE, que fortalezca el desarrollo de
+competencias digitales, operativas y did√°cticas, con el fin de mejorar la calidad del dise√±o y
+la efectividad de las capacitaciones online, promoviendo aprendizajes significativos que
+respondan a las necesidades de las comunidades atendidas.
 
-Objetivos especÌficos:
-* Identificar y categorizar las competencias digitales, pr·cticas y did·cticas necesarias para que el personal de las OSC diseÒe e implemente cursos de formaciÛn online efectivas acorde con sus necesidades.
-* Analizar el impacto que tiene la integraciÛn de la TGS y el modelo ADDIE en un sistema de alfabetizaciÛn digital y evaluar su contribuciÛn en la mejora del diseÒo, desarrollo y evaluaciÛn de las capacitaciones online en las OSC.
-* Evaluar el impacto del programa de alfabetizaciÛn digital en la calidad y efectividad de las capacitaciones online, considerando su aplicabilidad, sostenibilidad y replicabilidad en el contexto comunitario.
+Objetivos espec√≠ficos:
+‚Ä¢
 
-VII. METODOLOGÕA
-El estudio es de car·cter prospectivo y longitudinal de un nivel explicativo. El tipo de investigaciÛn es aplicada y se encuentra orientada a buscar soluciones para problemas pr·cticos dentro de las OSC. Para lograr una comprensiÛn profunda del fenÛmeno, se utilizar· una metodologÌa mixta (cualitativa y cuantitativa), con un DiseÒo Exploratorio Secuencial
+Identificar y categorizar las competencias digitales, pr√°cticas y did√°cticas necesarias
+para que el personal de las OSC dise√±e e implemente cursos de formaci√≥n online
+efectivas acorde con sus necesidades.
 
-(DEXPLOS) el cual se compone de una fase cualitativa y una de corte cuantitativo (Figura 1). Este diseÒo se fundamenta en la TeorÌa General de Sistemas (TGS), la cual proporciona una visiÛn integral que establece una relaciÛn entre los participantes, tecnologÌas, la organizaciÛn y la comunidad. TambiÈn, toma como base el modelo ADDIE, que se encarga de establecer la estructura para las fases del DI. Ambos marcos se combinan con la finalidad de tener una mayor coherencia teÛrico-metodolÛgica y aplicabilidad pr·ctica de los resultados.
+‚Ä¢
+
+Analizar el impacto que tiene la integraci√≥n de la TGS y el modelo ADDIE en un
+sistema de alfabetizaci√≥n digital y evaluar su contribuci√≥n en la mejora del dise√±o,
+desarrollo y evaluaci√≥n de las capacitaciones online en las OSC.
+
+‚Ä¢
+
+Evaluar el impacto del programa de alfabetizaci√≥n digital en la calidad y efectividad
+de las capacitaciones online, considerando su aplicabilidad, sostenibilidad y
+replicabilidad en el contexto comunitario.
+
+VII. METODOLOG√çA
+El estudio es de car√°cter prospectivo y longitudinal de un nivel explicativo. El tipo de
+investigaci√≥n es aplicada y se encuentra orientada a buscar soluciones para problemas
+pr√°cticos dentro de las OSC. Para lograr una comprensi√≥n profunda del fen√≥meno, se utilizar√°
+una metodolog√≠a mixta (cualitativa y cuantitativa), con un Dise√±o Exploratorio Secuencial
+
+13
+
+PROTOCOLO DE INVESTIGACI√ìN
+
+(DEXPLOS) el cual se compone de una fase cualitativa y una de corte cuantitativo (Figura
+1). Este dise√±o se fundamenta en la Teor√≠a General de Sistemas (TGS), la cual proporciona
+una visi√≥n integral que establece una relaci√≥n entre los participantes, tecnolog√≠as, la
+organizaci√≥n y la comunidad. Tambi√©n, toma como base el modelo ADDIE, que se encarga
+de establecer la estructura para las fases del DI. Ambos marcos se combinan con la finalidad
+de tener una mayor coherencia te√≥rico-metodol√≥gica y aplicabilidad pr√°ctica de los
+resultados.
 
 Fase Cualitativa (Exploratoria)
-SelecciÛn de participantes: Se emplear· un muestreo intencional con base en los perfiles de los profesionistas de las OSC que se encargan de los procesos de capacitaciÛn e intervenciÛn en el ·rea de comunidades. La selecciÛn tomar· en consideraciÛn los roles que desempeÒan dentro de la organizaciÛn, la experiencia y el tiempo que tienen laborando en OSC, con el propÛsito de obtener informaciÛn detallada y relevante sobre los conocimientos que tiene el personal de la organizaciÛn en tÈrminos de alfabetizaciÛn digital.
+Selecci√≥n de participantes: Se emplear√° un muestreo intencional con base en los perfiles de
+los profesionistas de las OSC que se encargan de los procesos de capacitaci√≥n e intervenci√≥n
+en el √°rea de comunidades. La selecci√≥n tomar√° en consideraci√≥n los roles que desempe√±an
+dentro de la organizaci√≥n, la experiencia y el tiempo que tienen laborando en OSC, con el
+prop√≥sito de obtener informaci√≥n detallada y relevante sobre los conocimientos que tiene el
+personal de la organizaci√≥n en t√©rminos de alfabetizaci√≥n digital.
 
-TÈcnicas de recolecciÛn de datos: Para la recolecciÛn de datos se utilizar· la entrevista semiestructurada, ya que permite explorar la percepciÛn subjetiva y las vivencias de los participantes en torno a la alfabetizaciÛn digital, al conocimiento que tienen sobre las competencias did·cticas, y la pertinencia que el desarrollar capacitaciones online para fortalecer a la organizaciÛn y responder a necesidades comunitarias. Las entrevistas ser·n grabadas para su posterior an·lisis, por lo que se les solicitar· previamente a los participantes su consentimiento expreso.
+T√©cnicas de recolecci√≥n de datos: Para la recolecci√≥n de datos se utilizar√° la entrevista
+semiestructurada, ya que permite explorar la percepci√≥n subjetiva y las vivencias de los
+participantes en torno a la alfabetizaci√≥n digital, al conocimiento que tienen sobre las
+competencias did√°cticas, y la pertinencia que el desarrollar capacitaciones online para
+fortalecer a la organizaci√≥n y responder a necesidades comunitarias. Las entrevistas ser√°n
+grabadas para su posterior an√°lisis, por lo que se les solicitar√° previamente a los participantes
+su consentimiento expreso.
 
-Procedimiento: Se diseÒar· una guÌa de preguntas y se explorar· sobre las competencias digitales que tiene el personal de las organizaciones, las pr·cticas de formaciÛn, la percepciÛn que tiene el personal sobre las oportunidades y retos, ventajas y desventajas que tiene la capacitaciÛn en lÌnea, y las necesidades especÌficas de las comunidades atendidas por las OSC. El tiempo estimado de cada entrevista ser· entre 30 y 45 minutos. Una vez realizada la
+Procedimiento: Se dise√±ar√° una gu√≠a de preguntas y se explorar√° sobre las competencias
+digitales que tiene el personal de las organizaciones, las pr√°cticas de formaci√≥n, la percepci√≥n
+que tiene el personal sobre las oportunidades y retos, ventajas y desventajas que tiene la
+capacitaci√≥n en l√≠nea, y las necesidades espec√≠ficas de las comunidades atendidas por las
+OSC. El tiempo estimado de cada entrevista ser√° entre 30 y 45 minutos. Una vez realizada la
 
-recopilaciÛn de datos, se realizar· una transcripciÛn de las entrevistas para facilitar su an·lisis.
+14
 
-An·lisis de datos cualitativos: Se realizar· un an·lisis de contenido mediante en el software Atlas.ti, las grabaciones de las entrevistas ser·n transcritas en el programa y posteriormente se identificar·n las palabras y conceptos clave que hayan mencionado los participantes para su codificaciÛn. Se organizar·n los cÛdigos en categorÌas que reflejen las necesidades de formaciÛn, las competencias clave que requiere el personal de las OSC y los factores sistÈmicos relevantes. Estos hallazgos permitir·n el diseÒo de un sistema de capacitaciÛn adecuado y para afinar los instrumentos de mediciÛn en la fase cuantitativa.
+PROTOCOLO DE INVESTIGACI√ìN
+
+recopilaci√≥n de datos, se realizar√° una transcripci√≥n de las entrevistas para facilitar su
+an√°lisis.
+
+An√°lisis de datos cualitativos: Se realizar√° un an√°lisis de contenido mediante en el software
+Atlas.ti, las grabaciones de las entrevistas ser√°n transcritas en el programa y posteriormente
+se identificar√°n las palabras y conceptos clave que hayan mencionado los participantes para
+su codificaci√≥n. Se organizar√°n los c√≥digos en categor√≠as que reflejen las necesidades de
+formaci√≥n, las competencias clave que requiere el personal de las OSC y los factores
+sist√©micos relevantes. Estos hallazgos permitir√°n el dise√±o de un sistema de capacitaci√≥n
+adecuado y para afinar los instrumentos de medici√≥n en la fase cuantitativa.
 
 Fase Cuantitativa (Confirmatoria)
-Muestra de participantes: Se emplear· una muestra no probabilÌstica por conveniencia de profesionistas que laboren en OSC. Con base en la clasificaciÛn de la LESS, se seleccionar·n aquellas OSC que se enfoquen en el ·rea de comunidades, estÈn legalmente constituidas y reconocidas por parte del gobierno como donatarias autorizadas, y cuyo trabajo se enfoque en la intervenciÛn social con poblaciones vulnerables. Para asegurar la pertinencia en el desarrollo de la investigaciÛn, los participantes dentro de estas OSC deber·n desempeÒar funciones relacionadas con la capacitaciÛn, la actualizaciÛn o el fortalecimiento organizacional. El proceso de selecciÛn se realizar· de acuerdo con el interÈs y la disponibilidad de las personas involucradas en cada OSC.
+Muestra de participantes: Se emplear√° una muestra no probabil√≠stica por conveniencia de
+profesionistas que laboren en OSC. Con base en la clasificaci√≥n de la LESS, se seleccionar√°n
+aquellas OSC que se enfoquen en el √°rea de comunidades, est√©n legalmente constituidas y
+reconocidas por parte del gobierno como donatarias autorizadas, y cuyo trabajo se enfoque
+en la intervenci√≥n social con poblaciones vulnerables. Para asegurar la pertinencia en el
+desarrollo de la investigaci√≥n, los participantes dentro de estas OSC deber√°n desempe√±ar
+funciones relacionadas con la capacitaci√≥n, la actualizaci√≥n o el fortalecimiento
+organizacional. El proceso de selecci√≥n se realizar√° de acuerdo con el inter√©s y la
+disponibilidad de las personas involucradas en cada OSC.
 
-Instrumentos: 1) Se diseÒar· un cuestionario para conocer los conocimientos de los participantes en la intervenciÛn, con un modo de evaluaciÛn pretest-postest. 2) Se utilizar· el Constructivist On-Line Learning Environment Survey (COLLES) de Taylor y Maor en su versiÛn en espaÒol, el cual se encuentra disponible dentro de los sistemas MOODLE y se conforma por 24 reactivos que eval˙an seis tipos de dominio: relevancia, reflexiÛn, interactividad, apoyo del tutor, apoyo de los compaÒeros e interpretaciÛn. 3) Se realizar· un cuestionario para evaluar la percepciÛn global del curso en lÌnea y la experiencia de usuario.
-4) Se realizar· un cuestionario de seguimiento para identificar la transferencia y aplicaciÛn
+Instrumentos: 1) Se dise√±ar√° un cuestionario para conocer los conocimientos de los
+participantes en la intervenci√≥n, con un modo de evaluaci√≥n pretest-postest. 2) Se utilizar√° el
+Constructivist On-Line Learning Environment Survey (COLLES) de Taylor y Maor en su
+versi√≥n en espa√±ol, el cual se encuentra disponible dentro de los sistemas MOODLE y se
+conforma por 24 reactivos que eval√∫an seis tipos de dominio: relevancia, reflexi√≥n,
+interactividad, apoyo del tutor, apoyo de los compa√±eros e interpretaci√≥n. 3) Se realizar√° un
+cuestionario para evaluar la percepci√≥n global del curso en l√≠nea y la experiencia de usuario.
+4) Se realizar√° un cuestionario de seguimiento para identificar la transferencia y aplicaci√≥n
+15
 
-del aprendizaje obtenido, el impacto a nivel organizacional y la sostenibilidad y continuidad del programa.
+PROTOCOLO DE INVESTIGACI√ìN
 
-Validez y confiabilidad de instrumentos: Para los cuestionarios de conocimientos, de percepciÛn del curso, de experiencia de usuario y de seguimiento, se utilizar·n los siguientes criterios validez y confiabilidad. La validez de contenido se realizar· a travÈs de la evaluaciÛn de expertos, quienes verificar·n la coherencia y pertinencia de los reactivos. Para la validez de constructo, se realizar· un an·lisis factorial exploratorio, para identificar la coherencia en cÛmo se agrupan los Ìtems. La confiabilidad se verificar· mediante una prueba piloto y un an·lisis de confiabilidad Alfa de Cronbach. En el caso del cuestionario COLLES, se realizar· una prueba piloto y un an·lisis de confiabilidad interna por medio del Alfa de Cronbach.
+del aprendizaje obtenido, el impacto a nivel organizacional y la sostenibilidad y continuidad
+del programa.
 
-Procedimiento: Previo a la fase de intervenciÛn se diseÒar· el curso de formaciÛn en lÌnea siguiendo el modelo ADDIE y la perspectiva sistÈmica de la TGS. Posterior a esta etapa, se proceder· con el programa de alfabetizaciÛn digital y de formaciÛn para el diseÒo de cursos de formaciÛn en lÌnea en las OSC participantes, en donde se les entregar· una carta de consentimiento informado al personal de las organizaciones para que conozcan el propÛsito de la investigaciÛn. Posteriormente, se aplicar· la prueba de conocimiento inicial (pretest) y se comenzar· con el desarrollo del curso. Al finalizar las sesiones se llevar· a cabo una evaluaciÛn final (postest) y se comparar·n los resultados de ambas evaluaciones (pretest- postest). Por ˙ltimo, se aplicar· el cuestionario COLLES y el cuestionario de percepciÛn del curso en lÌnea para obtener datos adicionales sobre la experiencia de aprendizaje.
+Validez y confiabilidad de instrumentos: Para los cuestionarios de conocimientos, de
+percepci√≥n del curso, de experiencia de usuario y de seguimiento, se utilizar√°n los siguientes
+criterios validez y confiabilidad. La validez de contenido se realizar√° a trav√©s de la evaluaci√≥n
+de expertos, quienes verificar√°n la coherencia y pertinencia de los reactivos. Para la validez
+de constructo, se realizar√° un an√°lisis factorial exploratorio, para identificar la coherencia en
+c√≥mo se agrupan los √≠tems. La confiabilidad se verificar√° mediante una prueba piloto y un
+an√°lisis de confiabilidad Alfa de Cronbach. En el caso del cuestionario COLLES, se realizar√°
+una prueba piloto y un an√°lisis de confiabilidad interna por medio del Alfa de Cronbach.
 
-Estrategia de an·lisis de datos cuantitativos: Para el an·lisis de resultados se realizar· una prueba t para muestras relacionadas, comparando los resultados del pretest con el postest. El cuestionario de percepciÛn del curso se analizar· mediante estadÌstica descriptiva. Adem·s, se realizar· un an·lisis de correlaciÛn r de Pearson entre los resultados del COLLES y las otras variables, con el fin de identificar relaciones significativas. En el cuestionario de seguimiento se analizar· mediante estadÌstica descriptiva y an·lisis de correlaciÛn r de Pearson. El procesamiento de los resultados se realizar· mediante el software SPSS.
+Procedimiento: Previo a la fase de intervenci√≥n se dise√±ar√° el curso de formaci√≥n en l√≠nea
+siguiendo el modelo ADDIE y la perspectiva sist√©mica de la TGS. Posterior a esta etapa, se
+proceder√° con el programa de alfabetizaci√≥n digital y de formaci√≥n para el dise√±o de cursos
+de formaci√≥n en l√≠nea en las OSC participantes, en donde se les entregar√° una carta de
+consentimiento informado al personal de las organizaciones para que conozcan el prop√≥sito
+de la investigaci√≥n. Posteriormente, se aplicar√° la prueba de conocimiento inicial (pretest) y
+se comenzar√° con el desarrollo del curso. Al finalizar las sesiones se llevar√° a cabo una
+evaluaci√≥n final (postest) y se comparar√°n los resultados de ambas evaluaciones (pretestpostest). Por √∫ltimo, se aplicar√° el cuestionario COLLES y el cuestionario de percepci√≥n del
+curso en l√≠nea para obtener datos adicionales sobre la experiencia de aprendizaje.
 
+Estrategia de an√°lisis de datos cuantitativos: Para el an√°lisis de resultados se realizar√° una
+prueba t para muestras relacionadas, comparando los resultados del pretest con el postest. El
+cuestionario de percepci√≥n del curso se analizar√° mediante estad√≠stica descriptiva. Adem√°s,
+se realizar√° un an√°lisis de correlaci√≥n r de Pearson entre los resultados del COLLES y las
+otras variables, con el fin de identificar relaciones significativas. En el cuestionario de
+seguimiento se analizar√° mediante estad√≠stica descriptiva y an√°lisis de correlaci√≥n r de
+Pearson. El procesamiento de los resultados se realizar√° mediante el software SPSS.
+16
 
-IntegraciÛn de Datos e InterpretaciÛn de Resultados
-Una vez concluida la etapa de recolecciÛn de datos tanto en la fase cualitativa como en la cuantitativa, realizar· un proceso de triangulaciÛn de datos, en donde se analizar·n los puntos de convergencia, y explicar· cÛmo los resultados cualitativos complementan y ayudan a explicar los datos cuantitativos, proporcionando un an·lisis m·s robusto y una visiÛn m·s amplia y detallada del impacto del sistema de capacitaciÛn online en las OSC. Por ˙ltimo, el an·lisis se centrar· en evaluar la efectividad y la aplicabilidad del sistema de alfabetizaciÛn digital fundamentado en la TGS y en el modelo ADDIE, tomando en consideraciÛn las competencias digitales y did·cticas adquiridas, y si estas inciden de forma significativa en la intervenciÛn social de las OSC.
-Figura 1. Diagrama de metodologÌa
+PROTOCOLO DE INVESTIGACI√ìN
 
-Fuente: ElaboraciÛn propia
+Integraci√≥n de Datos e Interpretaci√≥n de Resultados
+Una vez concluida la etapa de recolecci√≥n de datos tanto en la fase cualitativa como en la
+cuantitativa, realizar√° un proceso de triangulaci√≥n de datos, en donde se analizar√°n los puntos
+de convergencia, y explicar√° c√≥mo los resultados cualitativos complementan y ayudan a
+explicar los datos cuantitativos, proporcionando un an√°lisis m√°s robusto y una visi√≥n m√°s
+amplia y detallada del impacto del sistema de capacitaci√≥n online en las OSC. Por √∫ltimo, el
+an√°lisis se centrar√° en evaluar la efectividad y la aplicabilidad del sistema de alfabetizaci√≥n
+digital fundamentado en la TGS y en el modelo ADDIE, tomando en consideraci√≥n las
+competencias digitales y did√°cticas adquiridas, y si estas inciden de forma significativa en la
+intervenci√≥n social de las OSC.
+Figura 1. Diagrama de metodolog√≠a
 
-Procedimiento de IntervenciÛn: Fases del Sistema de AlfabetizaciÛn Digital
-Con base en el enfoque sistÈmico (TGS) y las fases del modelo ADDIE, se propone un proceso formativo en seis etapas para la implementaciÛn y evaluaciÛn del sistema de alfabetizaciÛn digital en las OSC (Figura 2):
-1. DiagnÛstico de competencias digitales
-2. AlfabetizaciÛn digital de OSC
-3. FormaciÛn en diseÒo de cursos online
-4. DiseÒo de cursos online por parte de las OSC
-5. EvaluaciÛn de resultados
+Fuente: Elaboraci√≥n propia
+17
+
+PROTOCOLO DE INVESTIGACI√ìN
+
+Procedimiento de Intervenci√≥n: Fases del Sistema de Alfabetizaci√≥n Digital
+Con base en el enfoque sist√©mico (TGS) y las fases del modelo ADDIE, se propone un
+proceso formativo en seis etapas para la implementaci√≥n y evaluaci√≥n del sistema de
+alfabetizaci√≥n digital en las OSC (Figura 2):
+1. Diagn√≥stico de competencias digitales
+2. Alfabetizaci√≥n digital de OSC
+3. Formaci√≥n en dise√±o de cursos online
+4. Dise√±o de cursos online por parte de las OSC
+5. Evaluaci√≥n de resultados
 6. Seguimiento y reforzamiento
 
+Figura 1. Diagrama de Sistema de alfabetizaci√≥n digital
 
-Figura 1. Diagrama de Sistema de alfabetizaciÛn digital
+Fuente: Elaboraci√≥n propia
 
+18
 
-Fuente: ElaboraciÛn propia
+PROTOCOLO DE INVESTIGACI√ìN
 
 VIII. CRONOGRAMA DE ACTIVIDADES DEL PROYECTO
 
-
 Figura 2. Cronograma de actividades
+Semestre
 
-Fuente: ElaboraciÛn propia
+Cronograma: Doctorado en tecnolog√≠a educativa
+Semestre 1
+Semestre 2
+Semestre 3
+Semestre 4
+Semestre 5
+Semestre 6
+Semestre 7
+Semestre 8
+Actividad
+JUL AGO SEP OCT NOV DIC ENE FEB MAR ABR MAY JUN JUL AGO SEP OCT NOV DIC ENE FEB MAR ABR MAY JUN JUL AGO SEP OCT NOV DIC ENE FEB MAR ABR MAY JUN JUL AGO SEP OCT NOV DIC ENE FEB MAR ABR MAY JUN
+1 Revisi√≥n de literatura
+1 Elaboraci√≥n del planteamiento del problema
+1 Redacci√≥n de justificaci√≥n
+1 Delimitaci√≥n del problema de investigaci√≥n
+1 Redacci√≥n de objetivos
+1 Elaboraci√≥n y revisi√≥n de la pregunta de investigaci√≥n
+1 Redacci√≥n y revisi√≥n de hip√≥tesis
+2 Revisi√≥n de literatura para el apartado de antecedentes y marco te√≥rico
+2 Redacci√≥n de antecedentes
+2 Redacci√≥n de fundamentaci√≥n te√≥rica
+3 Revisi√≥n de literatura para dise√±o metodol√≥gico
+3 Dise√±o metodol√≥gico
+3 Revisi√≥n y ajuste de metodolog√≠a
+4 Dise√±o de formato de entrevista semiestructurada y preguntas
+4 Revisi√≥n de preguntas de entrevista semiestructurada
+4 Aplicaci√≥n de entrevistas
+4 Transcripci√≥n de entrevistas
+4 An√°lisis de entrevistas
+5 Redacci√≥n de apartado de resultados cualitativos
+5 Dise√±o de curso basado en modelo ADDIE y TGS
+5 Revisi√≥n de literatura para elaboraci√≥n de cuestionarios
+5 Revisi√≥n de instrumentos de medici√≥n
+5 Dise√±o de cuestionarios
+5 Pilotaje y ajuste de instrumentos
+6 Impartici√≥n de curso de formaci√≥n online
+6 Aplicaci√≥n de instrumentos y recopilaci√≥n de datos
+6 An√°lisis de confiabilidad de los resultados
+6 Pruebas de contraste de hip√≥tesis
+6 Elaboraci√≥n de gr√°ficas y tablas
+6 Redacci√≥n de apartado de resultados cuantitativos
+7 Triangulaci√≥n de resultados cuantitativos y cualitativos
+7 Redacci√≥n de triangulaci√≥n de resultados
+7 Redacci√≥n de apartado de conclusiones
+8 Revisi√≥n final y correcci√≥n de toda la Tesis
+8 Presentaci√≥n de las Tesis
+8 Defensa de la Tesis
 
+Fuente: Elaboraci√≥n propia
 
-IX. RESULTADOS ESPERADOS, POSIBLES APLICACIONES Y USO DEL PROYECTO
-Se espera que un sistema de alfabetizaciÛn digital para el diseÒo de cursos de formaciÛn en lÌnea en las Organizaciones de la Sociedad Civil (OSC), que incorpore como base el modelo ADDIE y la TeorÌa General de Sistemas (TGS), mejore significativamente la calidad de la formaciÛn en las OSC y favorezca la pr·ctica profesional del personal de las organizaciones, permitiendo aplicar los conocimientos adquiridos en sus campos e intervenciÛn, permitiendo e esta manera la replicabilidad de los aprendizajes adquiridos en distintos escenarios. Esta investigaciÛn aportar· datos empÌricos que demuestren la efectividad de la incorporaciÛn de estos elementos en la educaciÛn no formal. Facilitar· el acceso a herramientas tecnolÛgicas modernas que promuevan la eficiencia y la flexibilidad en la capacitaciÛn online. Permitir· la reducciÛn de costos y tiempos de traslado, optimizando los recursos de las OSC. Adem·s, mejorar· la capacitaciÛn de las organizaciones para dar respuesta a las necesidades
+IX. RESULTADOS ESPERADOS, POSIBLES APLICACIONES Y USO DEL
+PROYECTO
+Se espera que un sistema de alfabetizaci√≥n digital para el dise√±o de cursos de formaci√≥n en
+l√≠nea en las Organizaciones de la Sociedad Civil (OSC), que incorpore como base el modelo
+ADDIE y la Teor√≠a General de Sistemas (TGS), mejore significativamente la calidad de la
+formaci√≥n en las OSC y favorezca la pr√°ctica profesional del personal de las organizaciones,
+permitiendo aplicar los conocimientos adquiridos en sus campos e intervenci√≥n, permitiendo
+e esta manera la replicabilidad de los aprendizajes adquiridos en distintos escenarios. Esta
+investigaci√≥n aportar√° datos emp√≠ricos que demuestren la efectividad de la incorporaci√≥n de
+estos elementos en la educaci√≥n no formal. Facilitar√° el acceso a herramientas tecnol√≥gicas
+modernas que promuevan la eficiencia y la flexibilidad en la capacitaci√≥n online. Permitir√°
+la reducci√≥n de costos y tiempos de traslado, optimizando los recursos de las OSC. Adem√°s,
+mejorar√° la capacitaci√≥n de las organizaciones para dar respuesta a las necesidades
 
-cambiantes de las comunidades y permitir· generar un modelo replicable para capacitar a m·s organizaciones de manera virtual.
+19
+
+PROTOCOLO DE INVESTIGACI√ìN
+
+cambiantes de las comunidades y permitir√° generar un modelo replicable para capacitar a
+m√°s organizaciones de manera virtual.
 
 En concreto, se proyectan los siguientes resultados y productos:
-* Datos empÌricos que demuestren la efectividad del sistema propuesto
-* Manual operativo del sistema de alfabetizaciÛn digital, donde se detallar·n las fases de intervenciÛn y las recomendaciones pr·cticas para su implementaciÛn y seguimiento.
-* GuÌas de formaciÛn y material did·ctico basados en pedagogÌa y educaciÛn social.
-* Sistema replicable para capacitar de forma virtual a un mayor n˙mero de organizaciones,
-* Indicadores de impacto que evidencien la transferencia de las competencias digitales y did·cticas a la pr·ctica profesional en las OSC
+‚Ä¢
 
-X. REFERENCIAS BIBLIOGR¡FICAS
+Datos emp√≠ricos que demuestren la efectividad del sistema propuesto
 
+‚Ä¢
 
-¡lvarez, O. C. (2004). EducaciÛn ambiental a partir de tres enfoques: Comunitario, sistÈmico e interdisciplinario. Revista Iberoamericana de EducaciÛn, 35(1), Article
+Manual operativo del sistema de alfabetizaci√≥n digital, donde se detallar√°n las fases
+de intervenci√≥n y las recomendaciones pr√°cticas para su implementaci√≥n y
+seguimiento.
+
+‚Ä¢
+
+Gu√≠as de formaci√≥n y material did√°ctico basados en pedagog√≠a y educaci√≥n social.
+
+‚Ä¢
+
+Sistema replicable para capacitar de forma virtual a un mayor n√∫mero de
+organizaciones,
+
+‚Ä¢
+
+Indicadores de impacto que evidencien la transferencia de las competencias digitales
+y did√°cticas a la pr√°ctica profesional en las OSC
+
+X. REFERENCIAS BIBLIOGR√ÅFICAS
+
+√Ålvarez, O. C. (2004). Educaci√≥n ambiental a partir de tres enfoques: Comunitario,
+sist√©mico e interdisciplinario. Revista Iberoamericana de Educaci√≥n, 35(1), Article
 1. https://doi.org/10.35362/rie3512941
+Amaya, A., Cervantes, D. C., & V√°zquez, J. G. M. (2021). An√°lisis de las competencias
+did√°cticas virtuales en la impartici√≥n de clases universitarias en l√≠nea, durante
+contingencia del COVID-19. Revista de Educaci√≥n a Distancia (RED), 21(65),
+Article 65. https://doi.org/10.6018/red.426371
+Avil√©s-L√≥pez, M., & Dom√≠nguez-Gaona, M. del R. (2023). Estrategia de formaci√≥n docente
+para fortalecer competencias digitales mediante un Ambiente Virtual de
 
-Amaya, A., Cervantes, D. C., & V·zquez, J. G. M. (2021). An·lisis de las competencias did·cticas virtuales en la imparticiÛn de clases universitarias en lÌnea, durante contingencia del COVID-19. Revista de EducaciÛn a Distancia (RED), 21(65), Article 65. https://doi.org/10.6018/red.426371
-AvilÈs-LÛpez, M., & DomÌnguez-Gaona, M. del R. (2023). Estrategia de formaciÛn docente para fortalecer competencias digitales mediante un Ambiente Virtual de
+20
 
-Aprendizaje. Pangea. Revista de Red AcadÈmica Iberoamericana de ComunicaciÛn, 14(1), Article 1. https://doi.org/10.52203/pangea.v14i1.230
-Carrasco Lozano, M. E. E., S·nchez OlavarrÌa, C., Universidad AutÛnoma de Tlaxcala, Carro Olvera, A., & Universidad AutÛnoma de Tlaxcala. (2015). Las competencias digitales en estudiantes del posgrado en educaciÛn. Revista Lasallista de InvestigaciÛn, 12(2), 10-18. https://doi.org/10.22507/rli.v12n2a1
-ChacÛn-Ortiz, M. (2015). El proceso de evaluaciÛn en educaciÛn no formal: Un camino para su construcciÛn. Revista ElectrÛnica Educare, 19(2), 21-35. https://doi.org/10.15359/ree.19-2.2
-Colagi‡como, E., & Garagozzo, A. M. de. (2008). TeorÌa de sistemas, sociedad y educaciÛn. Revista EDUCARE - UPEL-IPB - Segunda Nueva Etapa 2.0, 12(2), Article 2. https://www.revistas.investigacion- upelipb.com/index.php/educare/article/view/349
-Del Carmen, L., Miguelena, R., & Diallo, A. F. (2016). La efectividad de la formaciÛn en ambientes virtuales de aprendizaje en la educaciÛn superior. Campus Virtuales, 5(2), 10-17.
-Del Castillo Castro, C. I., & Cham·n Cabrera, L. I. (2021). Buenas pr·cticas en el uso de las ticpara el desarrollo de competencias educativas: RevisiÛn bibliogr·fica. Revista pedagÛgica de la Universidad de Cienfuegos, 17(82), 164-170.
-Escudero-NahÛn, A., Palacios-DÌaz, R., & Redondo-GarcÌa, O. (2020). PolÌticas de educaciÛn virtual para la educaciÛn no formal. Revista de EducaciÛn y Desarrollo, 54, 91-101.
+PROTOCOLO DE INVESTIGACI√ìN
 
-Garza, F. J. J. (2011). RevisiÛn de los principales modelos de diseÒo instruccional (Review of main instruccional design models). InnOvaciOnes de NegOciOs, 8(16), 357-389.
-Grajeda Grajeda, R. P. (2016). Propuesta para la implementaciÛn de un centro de evaluaciÛn en competencias laborales para las pymes en la Universidad de Sonora. Revista Ciencias EstratÈgicas, 24(36), 291-314. https://doi.org/10.18566/rces.v24n36.a3
-Lara Ochoa, C. A., Banda MuÒoz, F., & Castillo Elizondo, J. A. (2017). Certificaciones en competencias laborales en los programas educativos de ingenierÌa. Revista ElectrÛnica ANFEI Digital, 3(6).
-Levano-Francia, L., Sanchez Diaz, S., GuillÈn-Aparicio, P., Tello-Cabello, S., Herrera- Paico, N., & Collantes-Inga, Z. (2019). Competencias digitales y educaciÛn.
-      PropÛsitos y Representaciones, 7(2). https://doi.org/10.20511/pyr2019.v7n2.329 LÛpez Valladares, M., & Campos LÛpez, A. (2015). La capacitaciÛn como instrumento
-potenciador para la gestiÛn comunitaria. Revista de Ciencias Sociales, 21(1), 187-
+Aprendizaje. Pangea. Revista de Red Acad√©mica Iberoamericana de Comunicaci√≥n,
+14(1), Article 1. https://doi.org/10.52203/pangea.v14i1.230
+Carrasco Lozano, M. E. E., S√°nchez Olavarr√≠a, C., Universidad Aut√≥noma de Tlaxcala,
+Carro Olvera, A., & Universidad Aut√≥noma de Tlaxcala. (2015). Las competencias
+digitales en estudiantes del posgrado en educaci√≥n. Revista Lasallista de
+Investigaci√≥n, 12(2), 10-18. https://doi.org/10.22507/rli.v12n2a1
+Chac√≥n-Ortiz, M. (2015). El proceso de evaluaci√≥n en educaci√≥n no formal: Un camino
+para su construcci√≥n. Revista Electr√≥nica Educare, 19(2), 21-35.
+https://doi.org/10.15359/ree.19-2.2
+Colagi√†como, E., & Garagozzo, A. M. de. (2008). Teor√≠a de sistemas, sociedad y
+educaci√≥n. Revista EDUCARE - UPEL-IPB - Segunda Nueva Etapa 2.0, 12(2),
+Article 2. https://www.revistas.investigacionupelipb.com/index.php/educare/article/view/349
+Del Carmen, L., Miguelena, R., & Diallo, A. F. (2016). La efectividad de la formaci√≥n en
+ambientes virtuales de aprendizaje en la educaci√≥n superior. Campus Virtuales,
+5(2), 10-17.
+Del Castillo Castro, C. I., & Cham√°n Cabrera, L. I. (2021). Buenas pr√°cticas en el uso de
+las ticpara el desarrollo de competencias educativas: Revisi√≥n bibliogr√°fica. Revista
+pedag√≥gica de la Universidad de Cienfuegos, 17(82), 164-170.
+Escudero-Nah√≥n, A., Palacios-D√≠az, R., & Redondo-Garc√≠a, O. (2020). Pol√≠ticas de
+educaci√≥n virtual para la educaci√≥n no formal. Revista de Educaci√≥n y Desarrollo,
+54, 91-101.
 
-201. https://doi.org/10.31876/rcs.v21i1.25715
+21
 
-MartÌnez-Otero PÈrez, V. (2021). PedagogÌa social y educaciÛn social. Revista EducaÁ„o em Quest„o, 59(59), 1-22. https://doi.org/10.21680/1981- 1802.2021v59n59ID24018
-PÈrez RamÌrez, N., MÈndez Espinoza, J. A., Regalado LÛpez, J., RamÌrez Ju·rez, J., & LÛpez Zaragoza, A. (2024). Hallazgos de fortalecimiento institucional en organizaciones de la sociedad civil: Caso Cuetzalan del Progreso, Puebla.
+PROTOCOLO DE INVESTIGACI√ìN
 
-Agricultura, Sociedad y Desarrollo, 21(3), 402-420. https://doi.org/10.22231/asyd.v21i3.1611
-Petrus Rotger, A. (2004). EducaciÛn Social y EducaciÛn Escolar.
+Garza, F. J. J. (2011). Revisi√≥n de los principales modelos de dise√±o instruccional (Review
+of main instruccional design models). InnOvaciOnes de NegOciOs, 8(16), 357-389.
+Grajeda Grajeda, R. P. (2016). Propuesta para la implementaci√≥n de un centro de
+evaluaci√≥n en competencias laborales para las pymes en la Universidad de Sonora.
+Revista Ciencias Estrat√©gicas, 24(36), 291-314.
+https://doi.org/10.18566/rces.v24n36.a3
+Lara Ochoa, C. A., Banda Mu√±oz, F., & Castillo Elizondo, J. A. (2017). Certificaciones en
+competencias laborales en los programas educativos de ingenier√≠a. Revista
+Electr√≥nica ANFEI Digital, 3(6).
+Levano-Francia, L., Sanchez Diaz, S., Guill√©n-Aparicio, P., Tello-Cabello, S., HerreraPaico, N., & Collantes-Inga, Z. (2019). Competencias digitales y educaci√≥n.
+Prop√≥sitos y Representaciones, 7(2). https://doi.org/10.20511/pyr2019.v7n2.329
+L√≥pez Valladares, M., & Campos L√≥pez, A. (2015). La capacitaci√≥n como instrumento
+potenciador para la gesti√≥n comunitaria. Revista de Ciencias Sociales, 21(1), 187201. https://doi.org/10.31876/rcs.v21i1.25715
+Mart√≠nez-Otero P√©rez, V. (2021). Pedagog√≠a social y educaci√≥n social. Revista Educa√ß√£o
+em Quest√£o, 59(59), 1-22. https://doi.org/10.21680/19811802.2021v59n59ID24018
+P√©rez Ram√≠rez, N., M√©ndez Espinoza, J. A., Regalado L√≥pez, J., Ram√≠rez Ju√°rez, J., &
+L√≥pez Zaragoza, A. (2024). Hallazgos de fortalecimiento institucional en
+organizaciones de la sociedad civil: Caso Cuetzalan del Progreso, Puebla.
 
-Taipe-Castro, R. M. (2022). Enfoque sistÈmico-cibernÈtico en el diseÒo de sistema de gestiÛn de una instituciÛn de educaciÛn superior universitaria. Revista CientÌfica de Sistemas e Inform·tica, 2(1), Article 1. https://doi.org/10.51252/rcsi.v2i1.250
-Williams, P., Schrum, L., Sangr‡, A., & Gu‡rdia, L. (2001). Fundamentos del diseÒo tÈcnico-pedagÛgico en e-learning.
+22
 
+PROTOCOLO DE INVESTIGACI√ìN
 
+Agricultura, Sociedad y Desarrollo, 21(3), 402-420.
+https://doi.org/10.22231/asyd.v21i3.1611
+Petrus Rotger, A. (2004). Educaci√≥n Social y Educaci√≥n Escolar.
+Taipe-Castro, R. M. (2022). Enfoque sist√©mico-cibern√©tico en el dise√±o de sistema de
+gesti√≥n de una instituci√≥n de educaci√≥n superior universitaria. Revista Cient√≠fica de
+Sistemas e Inform√°tica, 2(1), Article 1. https://doi.org/10.51252/rcsi.v2i1.250
+Williams, P., Schrum, L., Sangr√†, A., & Gu√†rdia, L. (2001). Fundamentos del dise√±o
+t√©cnico-pedag√≥gico en e-learning.
 
+Nivel de revisi√≥n: 02
+Revisi√≥n 2024
 
-Nivel de revisiÛn: 02
-RevisiÛn 2024
+23
 
-
-
-
+
